@@ -1,0 +1,5203 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#ffffff">
+  <title>Luft Event Shop</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="icon" type="image/svg+xml" href="butterfly.svg"> 
+<link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#katalog">
+ Zum Katalog springen
+</a>
+<div class="site" id="top">
+ <div class="topbar">
+  <div class="wrap">
+   <span>
+    Beratung per WhatsApp &amp; Telegram
+   </span>
+   <span class="tb2">
+    +49 171 2164165 (Mariia)
+   </span>
+  </div>
+ </div>
+ <header class="head">
+  <div class="wrap bar">
+   <a aria-label="Luft Event, zur Startseite" class="logo" href="#top">
+    <span class="lg">
+     Luft
+    </span>
+    <svg aria-hidden="true" class="bf" focusable="false" height="38" viewbox="0 0 64 56" width="44">
+     <defs>
+      <lineargradient id="bfg" x1="0" x2="1" y1="0" y2="1">
+       <stop offset="0" stop-color="#8FD0F7">
+       </stop>
+       <stop offset=".55" stop-color="#B49CEB">
+       </stop>
+       <stop offset="1" stop-color="#D47FD9">
+       </stop>
+      </lineargradient>
+     </defs>
+     <g fill="none" stroke="url(#bfg)" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.2">
+      <path d="M13 30C6 14 22 2 38 5C53 8 55 24 36 30">
+      </path>
+      <path d="M13 30C22 27 30 27 37 30">
+      </path>
+      <path d="M13 30C10 44 24 55 37 50C49 46 45 35 31 34">
+      </path>
+     </g>
+    </svg>
+    <span class="lg">
+     vent
+    </span>
+   </a>
+   <nav aria-label="Hauptmen&uuml;" class="nav">
+    <a href="#katalog">
+     Katalog
+    </a>
+    <a href="#c-gender">
+     Gender-Party
+    </a>
+    <a href="#c-feier">
+     Hochzeit &amp; Jubil&auml;um
+    </a>
+    <a href="#kontakt">
+     Kontakt
+    </a>
+   </nav>
+   <button aria-label="Warenkorb &ouml;ffnen, 0 Artikel" class="cartbtn" id="cartOpen" type="button">
+    <svg aria-hidden="true" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="22">
+     <path d="M3 4h2l2.4 11.2a2 2 0 0 0 2 1.6h7.6a2 2 0 0 0 2-1.5L21 8H6">
+     </path>
+     <circle cx="10" cy="20.5" r="1.3">
+     </circle>
+     <circle cx="17" cy="20.5" r="1.3">
+     </circle>
+    </svg>
+    <span class="cl">
+     Warenkorb
+    </span>
+    <span class="cc" id="cartCount">
+     0
+    </span>
+   </button>
+  </div>
+ </header>
+ <section class="hero">
+  <div class="wrap hero-in">
+   <div class="hero-copy">
+    <p class="eyebrow">
+     Dekoration f&uuml;r Kinderfeste und mehr
+    </p>
+    <h1>
+     Ihr
+     <em class="sc">
+      Fest
+     </em>
+     &ndash; stilvoll
+     <em class="sc">
+      gestaltet
+     </em>
+    </h1>
+    <p class="lead">
+     Ballongirlanden, Fotozonen und Tischdeko f&uuml;r Kinderfest, Jubil&auml;um, Hochzeit und Gender-Party. W&auml;hlen Sie im Katalog, ich berate Sie pers&ouml;nlich per WhatsApp oder Telegram.
+    </p>
+    <div class="cta">
+     <a class="btn pri" href="#katalog">
+      Katalog ansehen
+     </a>
+     <span class="btn ghost" role="text">
+      WhatsApp &amp; Telegram: +49 171 2164165
+     </span>
+    </div>
+   </div>
+   <div class="hero-art">
+    <p class="sie">
+     Sie haben
+    </p>
+    <div class="pills">
+     <button class="pill p1" data-go="girlanden" type="button">
+      Kinderfest
+     </button>
+     <button class="pill p2" data-go="feier" type="button">
+      Jubil&auml;um
+     </button>
+     <button class="pill p3" data-go="feier" type="button">
+      Hochzeit
+     </button>
+     <button class="pill p4" data-go="gender" type="button">
+      Gender-Party
+     </button>
+    </div>
+    <p class="sie sie2">
+     und ich habe die Deko.
+    </p>
+   </div>
+  </div>
+ </section>
+ <section class="cat-head wrap">
+  <div>
+   <h2>
+    Unser Sortiment
+   </h2>
+   <p aria-live="polite" id="count">
+    100 Produkte in 8 Kategorien
+   </p>
+  </div>
+  <div class="search">
+   <label class="sr" for="q">
+    Produkte suchen
+   </label>
+   <svg aria-hidden="true" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24" width="20">
+    <circle cx="11" cy="11" r="7">
+    </circle>
+    <path d="M20 20l-3.5-3.5">
+    </path>
+   </svg>
+   <input autocomplete="off" id="q" placeholder="Produkt suchen, z. B. Girlande" type="search"/>
+  </div>
+ </section>
+ <div class="chipsbar" id="chipsbar">
+  <div class="wrap">
+   <button aria-controls="chips" aria-expanded="false" class="catsel" id="catBtn" type="button">
+    <span class="cs-l">
+     Kategorie
+    </span>
+    <span class="cs-v" id="catVal">
+     Alle (100)
+    </span>
+    <svg aria-hidden="true" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4" viewbox="0 0 24 24" width="20">
+     <path d="M6 9l6 6 6-6">
+     </path>
+    </svg>
+   </button>
+   <div aria-label="Kategorie w&auml;hlen" class="chips" id="chips" role="group">
+    <button aria-pressed="true" class="chip" data-cat="all" type="button">
+     Alle
+     <span class="cn">
+      100
+     </span>
+    </button>
+    <button aria-pressed="false" class="chip" data-cat="girlanden" type="button">
+     Ballongirlanden
+     <span class="cn">
+      13
+     </span>
+    </button>
+    <button aria-pressed="false" class="chip" data-cat="boegen" type="button">
+     Ballonb&ouml;gen &amp; S&auml;ulen
+     <span class="cn">
+      13
+     </span>
+    </button>
+    <button aria-pressed="false" class="chip" data-cat="fotozonen" type="button">
+     Fotozonen &amp; Backdrops
+     <span class="cn">
+      13
+     </span>
+    </button>
+    <button aria-pressed="false" class="chip" data-cat="tisch" type="button">
+     Tischdeko
+     <span class="cn">
+      13
+     </span>
+    </button>
+    <button aria-pressed="false" class="chip" data-cat="candybar" type="button">
+     Candybar &amp; S&uuml;&szlig;es
+     <span class="cn">
+      12
+     </span>
+    </button>
+    <button aria-pressed="false" class="chip" data-cat="banner" type="button">
+     Schriftz&uuml;ge &amp; Banner
+     <span class="cn">
+      12
+     </span>
+    </button>
+    <button aria-pressed="false" class="chip" data-cat="gender" type="button">
+     Gender-Party
+     <span class="cn">
+      12
+     </span>
+    </button>
+    <button aria-pressed="false" class="chip" data-cat="feier" type="button">
+     Hochzeit &amp; Jubil&auml;um
+     <span class="cn">
+      12
+     </span>
+    </button>
+   </div>
+  </div>
+ </div>
+ <main class="wrap cats" id="katalog">
+  <section aria-labelledby="h-girlanden" class="cat" data-cat="girlanden" id="c-girlanden">
+   <header class="cat-h">
+    <div>
+     <h3 id="h-girlanden">
+      Ballongirlanden
+     </h3>
+     <p>
+      Girlanden in Pastell, Chrom und Themenfarben f&uuml;r Wand, Tisch und Eingang.
+     </p>
+    </div>
+    <span class="n">
+     13 Produkte
+    </span>
+   </header>
+   <div class="grid">
+    <article class="card" data-cat="girlanden" data-id="1" data-search="regenbogen-girlande pastell, 3 m weiche pastellt&ouml;ne f&uuml;r kinderfest und kindergeburtstag. ballongirlanden">
+     <div aria-hidden="true" class="tile g5">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <ellipse cx="22" cy="24" rx="10" ry="12">
+       </ellipse>
+       <ellipse cx="40" cy="20" rx="9" ry="11">
+       </ellipse>
+       <ellipse cx="33" cy="38" rx="8" ry="10">
+       </ellipse>
+       <path d="M22 36c0 8 6 10 11 12M40 31c0 6-3 9-7 7M33 48v10">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+      <span class="badge">
+       Beliebt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Regenbogen-Girlande Pastell, 3 m
+      </h4>
+      <p class="sd">
+       Weiche Pastellt&ouml;ne f&uuml;r Kinderfest und Kindergeburtstag.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         49,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="1" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Regenbogen-Girlande Pastell, 3 m
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="girlanden" data-id="2" data-search="girlande himmelblau &amp; wei&szlig;, 3 m frisch und leicht, mit wolken-ballons. ballongirlanden">
+     <div aria-hidden="true" class="tile g4">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <ellipse cx="22" cy="24" rx="10" ry="12">
+       </ellipse>
+       <ellipse cx="40" cy="20" rx="9" ry="11">
+       </ellipse>
+       <ellipse cx="33" cy="38" rx="8" ry="10">
+       </ellipse>
+       <path d="M22 36c0 8 6 10 11 12M40 31c0 6-3 9-7 7M33 48v10">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Girlande Himmelblau &amp; Wei&szlig;, 3 m
+      </h4>
+      <p class="sd">
+       Frisch und leicht, mit Wolken-Ballons.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         44,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="2" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Girlande Himmelblau &amp; Wei&szlig;, 3 m
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="girlanden" data-id="3" data-search="girlande ros&eacute; &amp; gold, 3 m matte ros&eacute;t&ouml;ne mit goldenen akzenten. ballongirlanden">
+     <div aria-hidden="true" class="tile g3">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <ellipse cx="22" cy="24" rx="10" ry="12">
+       </ellipse>
+       <ellipse cx="40" cy="20" rx="9" ry="11">
+       </ellipse>
+       <ellipse cx="33" cy="38" rx="8" ry="10">
+       </ellipse>
+       <path d="M22 36c0 8 6 10 11 12M40 31c0 6-3 9-7 7M33 48v10">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Girlande Ros&eacute; &amp; Gold, 3 m
+      </h4>
+      <p class="sd">
+       Matte Ros&eacute;t&ouml;ne mit goldenen Akzenten.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         54,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="3" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Girlande Ros&eacute; &amp; Gold, 3 m
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="girlanden" data-id="4" data-search="organic-girlande lavendel, 4 m unregelm&auml;&szlig;ig geformt, mit chrom-ballons. ballongirlanden">
+     <div aria-hidden="true" class="tile g2">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <ellipse cx="22" cy="24" rx="10" ry="12">
+       </ellipse>
+       <ellipse cx="40" cy="20" rx="9" ry="11">
+       </ellipse>
+       <ellipse cx="33" cy="38" rx="8" ry="10">
+       </ellipse>
+       <path d="M22 36c0 8 6 10 11 12M40 31c0 6-3 9-7 7M33 48v10">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+      <span class="badge">
+       Neu
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Organic-Girlande Lavendel, 4 m
+      </h4>
+      <p class="sd">
+       Unregelm&auml;&szlig;ig geformt, mit Chrom-Ballons.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         69,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="4" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Organic-Girlande Lavendel, 4 m
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="girlanden" data-id="5" data-search="schmetterlings-girlande, 3 m blau, lila und rosa mit folien-schmetterlingen. ballongirlanden">
+     <div aria-hidden="true" class="tile g1">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <ellipse cx="22" cy="24" rx="10" ry="12">
+       </ellipse>
+       <ellipse cx="40" cy="20" rx="9" ry="11">
+       </ellipse>
+       <ellipse cx="33" cy="38" rx="8" ry="10">
+       </ellipse>
+       <path d="M22 36c0 8 6 10 11 12M40 31c0 6-3 9-7 7M33 48v10">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Schmetterlings-Girlande, 3 m
+      </h4>
+      <p class="sd">
+       Blau, Lila und Rosa mit Folien-Schmetterlingen.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         59,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="5" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Schmetterlings-Girlande, 3 m
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="girlanden" data-id="6" data-search="mini-girlande cakesmash, 1,5 m kleine girlande f&uuml;r den ersten geburtstag. ballongirlanden">
+     <div aria-hidden="true" class="tile g0">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <ellipse cx="22" cy="24" rx="10" ry="12">
+       </ellipse>
+       <ellipse cx="40" cy="20" rx="9" ry="11">
+       </ellipse>
+       <ellipse cx="33" cy="38" rx="8" ry="10">
+       </ellipse>
+       <path d="M22 36c0 8 6 10 11 12M40 31c0 6-3 9-7 7M33 48v10">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Mini-Girlande Cakesmash, 1,5 m
+      </h4>
+      <p class="sd">
+       Kleine Girlande f&uuml;r den ersten Geburtstag.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         29,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="6" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Mini-Girlande Cakesmash, 1,5 m
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="girlanden" data-id="7" data-search="dino-girlande gr&uuml;n, 3 m gr&uuml;nt&ouml;ne mit folien-dinos f&uuml;r wilde partys. ballongirlanden">
+     <div aria-hidden="true" class="tile g5">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <ellipse cx="22" cy="24" rx="10" ry="12">
+       </ellipse>
+       <ellipse cx="40" cy="20" rx="9" ry="11">
+       </ellipse>
+       <ellipse cx="33" cy="38" rx="8" ry="10">
+       </ellipse>
+       <path d="M22 36c0 8 6 10 11 12M40 31c0 6-3 9-7 7M33 48v10">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Dino-Girlande Gr&uuml;n, 3 m
+      </h4>
+      <p class="sd">
+       Gr&uuml;nt&ouml;ne mit Folien-Dinos f&uuml;r wilde Partys.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         54,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="7" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Dino-Girlande Gr&uuml;n, 3 m
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="girlanden" data-id="8" data-search="einhorn-girlande, 3 m pastell mit regenbogen-akzenten und sternen. ballongirlanden">
+     <div aria-hidden="true" class="tile g4">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <ellipse cx="22" cy="24" rx="10" ry="12">
+       </ellipse>
+       <ellipse cx="40" cy="20" rx="9" ry="11">
+       </ellipse>
+       <ellipse cx="33" cy="38" rx="8" ry="10">
+       </ellipse>
+       <path d="M22 36c0 8 6 10 11 12M40 31c0 6-3 9-7 7M33 48v10">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Einhorn-Girlande, 3 m
+      </h4>
+      <p class="sd">
+       Pastell mit Regenbogen-Akzenten und Sternen.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         54,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="8" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Einhorn-Girlande, 3 m
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="girlanden" data-id="9" data-search="ozean-girlande, 3 m blau und t&uuml;rkis mit muscheln und seesternen. ballongirlanden">
+     <div aria-hidden="true" class="tile g3">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <ellipse cx="22" cy="24" rx="10" ry="12">
+       </ellipse>
+       <ellipse cx="40" cy="20" rx="9" ry="11">
+       </ellipse>
+       <ellipse cx="33" cy="38" rx="8" ry="10">
+       </ellipse>
+       <path d="M22 36c0 8 6 10 11 12M40 31c0 6-3 9-7 7M33 48v10">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+      <span class="badge">
+       Beliebt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Ozean-Girlande, 3 m
+      </h4>
+      <p class="sd">
+       Blau und T&uuml;rkis mit Muscheln und Seesternen.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         54,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="9" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Ozean-Girlande, 3 m
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="girlanden" data-id="10" data-search="weltraum-girlande, 3 m dunkelblau und silber mit sternen und planeten. ballongirlanden">
+     <div aria-hidden="true" class="tile g2">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <ellipse cx="22" cy="24" rx="10" ry="12">
+       </ellipse>
+       <ellipse cx="40" cy="20" rx="9" ry="11">
+       </ellipse>
+       <ellipse cx="33" cy="38" rx="8" ry="10">
+       </ellipse>
+       <path d="M22 36c0 8 6 10 11 12M40 31c0 6-3 9-7 7M33 48v10">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Weltraum-Girlande, 3 m
+      </h4>
+      <p class="sd">
+       Dunkelblau und Silber mit Sternen und Planeten.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         54,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="10" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Weltraum-Girlande, 3 m
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="girlanden" data-id="11" data-search="konfetti-girlande bunt, 3 m transparente ballons mit buntem konfetti. ballongirlanden">
+     <div aria-hidden="true" class="tile g1">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <ellipse cx="22" cy="24" rx="10" ry="12">
+       </ellipse>
+       <ellipse cx="40" cy="20" rx="9" ry="11">
+       </ellipse>
+       <ellipse cx="33" cy="38" rx="8" ry="10">
+       </ellipse>
+       <path d="M22 36c0 8 6 10 11 12M40 31c0 6-3 9-7 7M33 48v10">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Konfetti-Girlande Bunt, 3 m
+      </h4>
+      <p class="sd">
+       Transparente Ballons mit buntem Konfetti.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         49,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="11" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Konfetti-Girlande Bunt, 3 m
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="girlanden" data-id="12" data-search="chrom-girlande silber, 3 m gl&auml;nzende chrom-ballons in silber und wei&szlig;. ballongirlanden">
+     <div aria-hidden="true" class="tile g0">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <ellipse cx="22" cy="24" rx="10" ry="12">
+       </ellipse>
+       <ellipse cx="40" cy="20" rx="9" ry="11">
+       </ellipse>
+       <ellipse cx="33" cy="38" rx="8" ry="10">
+       </ellipse>
+       <path d="M22 36c0 8 6 10 11 12M40 31c0 6-3 9-7 7M33 48v10">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Chrom-Girlande Silber, 3 m
+      </h4>
+      <p class="sd">
+       Gl&auml;nzende Chrom-Ballons in Silber und Wei&szlig;.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         64,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="12" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Chrom-Girlande Silber, 3 m
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="girlanden" data-id="13" data-search="boho-girlande wei&szlig; &amp; beige, 4 m nat&uuml;rliche t&ouml;ne f&uuml;r taufe und hochzeit. ballongirlanden">
+     <div aria-hidden="true" class="tile g5">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <ellipse cx="22" cy="24" rx="10" ry="12">
+       </ellipse>
+       <ellipse cx="40" cy="20" rx="9" ry="11">
+       </ellipse>
+       <ellipse cx="33" cy="38" rx="8" ry="10">
+       </ellipse>
+       <path d="M22 36c0 8 6 10 11 12M40 31c0 6-3 9-7 7M33 48v10">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Boho-Girlande Wei&szlig; &amp; Beige, 4 m
+      </h4>
+      <p class="sd">
+       Nat&uuml;rliche T&ouml;ne f&uuml;r Taufe und Hochzeit.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         69,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="13" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Boho-Girlande Wei&szlig; &amp; Beige, 4 m
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+   </div>
+  </section>
+  <section aria-labelledby="h-boegen" class="cat" data-cat="boegen" id="c-boegen">
+   <header class="cat-h">
+    <div>
+     <h3 id="h-boegen">
+      Ballonb&ouml;gen &amp; S&auml;ulen
+     </h3>
+     <p>
+      B&ouml;gen, S&auml;ulen und Ballonw&auml;nde, die jeden Eingang zum Hingucker machen.
+     </p>
+    </div>
+    <span class="n">
+     13 Produkte
+    </span>
+   </header>
+   <div class="grid">
+    <article class="card" data-cat="boegen" data-id="14" data-search="ballonbogen klassisch, 2 m gleichm&auml;&szlig;iger bogen in ihren wunschfarben. ballonb&ouml;gen &amp; s&auml;ulen">
+     <div aria-hidden="true" class="tile g5">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <path d="M8 54V34a24 24 0 0 1 48 0v20">
+       </path>
+       <path d="M16 54V34a16 16 0 0 1 32 0v20">
+       </path>
+       <circle cx="32" cy="10" r="3">
+       </circle>
+       <circle cx="14" cy="18" r="3">
+       </circle>
+       <circle cx="50" cy="18" r="3">
+       </circle>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+      <span class="badge">
+       Neu
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Ballonbogen klassisch, 2 m
+      </h4>
+      <p class="sd">
+       Gleichm&auml;&szlig;iger Bogen in Ihren Wunschfarben.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         79,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="14" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Ballonbogen klassisch, 2 m
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="boegen" data-id="15" data-search="ballonbogen organic, 3 m wilder look mit gro&szlig;en und kleinen ballons. ballonb&ouml;gen &amp; s&auml;ulen">
+     <div aria-hidden="true" class="tile g4">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <path d="M8 54V34a24 24 0 0 1 48 0v20">
+       </path>
+       <path d="M16 54V34a16 16 0 0 1 32 0v20">
+       </path>
+       <circle cx="32" cy="10" r="3">
+       </circle>
+       <circle cx="14" cy="18" r="3">
+       </circle>
+       <circle cx="50" cy="18" r="3">
+       </circle>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Ballonbogen Organic, 3 m
+      </h4>
+      <p class="sd">
+       Wilder Look mit gro&szlig;en und kleinen Ballons.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         129,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="15" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Ballonbogen Organic, 3 m
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="boegen" data-id="16" data-search="ballonbogen regenbogen, 2,5 m alle farben in sanften pastellt&ouml;nen. ballonb&ouml;gen &amp; s&auml;ulen">
+     <div aria-hidden="true" class="tile g3">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <path d="M8 54V34a24 24 0 0 1 48 0v20">
+       </path>
+       <path d="M16 54V34a16 16 0 0 1 32 0v20">
+       </path>
+       <circle cx="32" cy="10" r="3">
+       </circle>
+       <circle cx="14" cy="18" r="3">
+       </circle>
+       <circle cx="50" cy="18" r="3">
+       </circle>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Ballonbogen Regenbogen, 2,5 m
+      </h4>
+      <p class="sd">
+       Alle Farben in sanften Pastellt&ouml;nen.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         99,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="16" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Ballonbogen Regenbogen, 2,5 m
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="boegen" data-id="17" data-search="halbbogen f&uuml;r den eingang, 1,5 m kompakt f&uuml;r t&uuml;ren und kleine r&auml;ume. ballonb&ouml;gen &amp; s&auml;ulen">
+     <div aria-hidden="true" class="tile g2">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <path d="M8 54V34a24 24 0 0 1 48 0v20">
+       </path>
+       <path d="M16 54V34a16 16 0 0 1 32 0v20">
+       </path>
+       <circle cx="32" cy="10" r="3">
+       </circle>
+       <circle cx="14" cy="18" r="3">
+       </circle>
+       <circle cx="50" cy="18" r="3">
+       </circle>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Halbbogen f&uuml;r den Eingang, 1,5 m
+      </h4>
+      <p class="sd">
+       Kompakt f&uuml;r T&uuml;ren und kleine R&auml;ume.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         59,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="17" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Halbbogen f&uuml;r den Eingang, 1,5 m
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="boegen" data-id="18" data-search="ballons&auml;ule pastell, 1,6 m einzelne s&auml;ule, stabil und standfest. ballonb&ouml;gen &amp; s&auml;ulen">
+     <div aria-hidden="true" class="tile g1">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <path d="M8 54V34a24 24 0 0 1 48 0v20">
+       </path>
+       <path d="M16 54V34a16 16 0 0 1 32 0v20">
+       </path>
+       <circle cx="32" cy="10" r="3">
+       </circle>
+       <circle cx="14" cy="18" r="3">
+       </circle>
+       <circle cx="50" cy="18" r="3">
+       </circle>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Ballons&auml;ule Pastell, 1,6 m
+      </h4>
+      <p class="sd">
+       Einzelne S&auml;ule, stabil und standfest.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         54,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="18" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Ballons&auml;ule Pastell, 1,6 m
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="boegen" data-id="19" data-search="ballons&auml;ulen-paar blau, 1,6 m zwei s&auml;ulen f&uuml;r b&uuml;hne oder eingang. ballonb&ouml;gen &amp; s&auml;ulen">
+     <div aria-hidden="true" class="tile g0">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <path d="M8 54V34a24 24 0 0 1 48 0v20">
+       </path>
+       <path d="M16 54V34a16 16 0 0 1 32 0v20">
+       </path>
+       <circle cx="32" cy="10" r="3">
+       </circle>
+       <circle cx="14" cy="18" r="3">
+       </circle>
+       <circle cx="50" cy="18" r="3">
+       </circle>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Ballons&auml;ulen-Paar Blau, 1,6 m
+      </h4>
+      <p class="sd">
+       Zwei S&auml;ulen f&uuml;r B&uuml;hne oder Eingang.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         99,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="19" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Ballons&auml;ulen-Paar Blau, 1,6 m
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="boegen" data-id="20" data-search="spiral-bogen lavendel, 2,5 m gedrehte ballonreihen in lila und wei&szlig;. ballonb&ouml;gen &amp; s&auml;ulen">
+     <div aria-hidden="true" class="tile g5">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <path d="M8 54V34a24 24 0 0 1 48 0v20">
+       </path>
+       <path d="M16 54V34a16 16 0 0 1 32 0v20">
+       </path>
+       <circle cx="32" cy="10" r="3">
+       </circle>
+       <circle cx="14" cy="18" r="3">
+       </circle>
+       <circle cx="50" cy="18" r="3">
+       </circle>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Spiral-Bogen Lavendel, 2,5 m
+      </h4>
+      <p class="sd">
+       Gedrehte Ballonreihen in Lila und Wei&szlig;.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         119,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="20" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Spiral-Bogen Lavendel, 2,5 m
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="boegen" data-id="21" data-search="ballontor eingang, 3 m gro&szlig;es tor f&uuml;r festsaal und garten. ballonb&ouml;gen &amp; s&auml;ulen">
+     <div aria-hidden="true" class="tile g4">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <path d="M8 54V34a24 24 0 0 1 48 0v20">
+       </path>
+       <path d="M16 54V34a16 16 0 0 1 32 0v20">
+       </path>
+       <circle cx="32" cy="10" r="3">
+       </circle>
+       <circle cx="14" cy="18" r="3">
+       </circle>
+       <circle cx="50" cy="18" r="3">
+       </circle>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Ballontor Eingang, 3 m
+      </h4>
+      <p class="sd">
+       Gro&szlig;es Tor f&uuml;r Festsaal und Garten.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         149,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="21" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Ballontor Eingang, 3 m
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="boegen" data-id="22" data-search="ballonwand rund, 2 m runde wand als hintergrund f&uuml;r torte und fotos. ballonb&ouml;gen &amp; s&auml;ulen">
+     <div aria-hidden="true" class="tile g3">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <path d="M8 54V34a24 24 0 0 1 48 0v20">
+       </path>
+       <path d="M16 54V34a16 16 0 0 1 32 0v20">
+       </path>
+       <circle cx="32" cy="10" r="3">
+       </circle>
+       <circle cx="14" cy="18" r="3">
+       </circle>
+       <circle cx="50" cy="18" r="3">
+       </circle>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+      <span class="badge">
+       Beliebt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Ballonwand rund, 2 m
+      </h4>
+      <p class="sd">
+       Runde Wand als Hintergrund f&uuml;r Torte und Fotos.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         139,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="22" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Ballonwand rund, 2 m
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="boegen" data-id="23" data-search="ballonwand rechteck, 2 &times; 2 m dichte wand mit farbverlauf. ballonb&ouml;gen &amp; s&auml;ulen">
+     <div aria-hidden="true" class="tile g2">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <path d="M8 54V34a24 24 0 0 1 48 0v20">
+       </path>
+       <path d="M16 54V34a16 16 0 0 1 32 0v20">
+       </path>
+       <circle cx="32" cy="10" r="3">
+       </circle>
+       <circle cx="14" cy="18" r="3">
+       </circle>
+       <circle cx="50" cy="18" r="3">
+       </circle>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Ballonwand Rechteck, 2 &times; 2 m
+      </h4>
+      <p class="sd">
+       Dichte Wand mit Farbverlauf.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         169,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="23" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Ballonwand Rechteck, 2 &times; 2 m
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="boegen" data-id="24" data-search="ballon-kranz f&uuml;r die t&uuml;r, 60 cm willkommensgru&szlig; an der haust&uuml;r. ballonb&ouml;gen &amp; s&auml;ulen">
+     <div aria-hidden="true" class="tile g1">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <path d="M8 54V34a24 24 0 0 1 48 0v20">
+       </path>
+       <path d="M16 54V34a16 16 0 0 1 32 0v20">
+       </path>
+       <circle cx="32" cy="10" r="3">
+       </circle>
+       <circle cx="14" cy="18" r="3">
+       </circle>
+       <circle cx="50" cy="18" r="3">
+       </circle>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Ballon-Kranz f&uuml;r die T&uuml;r, 60 cm
+      </h4>
+      <p class="sd">
+       Willkommensgru&szlig; an der Haust&uuml;r.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         39,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="24" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Ballon-Kranz f&uuml;r die T&uuml;r, 60 cm
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="boegen" data-id="25" data-search="riesen-ballon mit federn, 90 cm gro&szlig;er ballon mit federn und konfetti. ballonb&ouml;gen &amp; s&auml;ulen">
+     <div aria-hidden="true" class="tile g0">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <path d="M8 54V34a24 24 0 0 1 48 0v20">
+       </path>
+       <path d="M16 54V34a16 16 0 0 1 32 0v20">
+       </path>
+       <circle cx="32" cy="10" r="3">
+       </circle>
+       <circle cx="14" cy="18" r="3">
+       </circle>
+       <circle cx="50" cy="18" r="3">
+       </circle>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Riesen-Ballon mit Federn, 90 cm
+      </h4>
+      <p class="sd">
+       Gro&szlig;er Ballon mit Federn und Konfetti.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         34,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="25" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Riesen-Ballon mit Federn, 90 cm
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="boegen" data-id="26" data-search="ballonbogen schmetterling, 2,5 m bogen mit folien-schmetterlingen. ballonb&ouml;gen &amp; s&auml;ulen">
+     <div aria-hidden="true" class="tile g5">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <path d="M8 54V34a24 24 0 0 1 48 0v20">
+       </path>
+       <path d="M16 54V34a16 16 0 0 1 32 0v20">
+       </path>
+       <circle cx="32" cy="10" r="3">
+       </circle>
+       <circle cx="14" cy="18" r="3">
+       </circle>
+       <circle cx="50" cy="18" r="3">
+       </circle>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Ballonbogen Schmetterling, 2,5 m
+      </h4>
+      <p class="sd">
+       Bogen mit Folien-Schmetterlingen.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         139,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="26" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Ballonbogen Schmetterling, 2,5 m
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+   </div>
+  </section>
+  <section aria-labelledby="h-fotozonen" class="cat" data-cat="fotozonen" id="c-fotozonen">
+   <header class="cat-h">
+    <div>
+     <h3 id="h-fotozonen">
+      Fotozonen &amp; Backdrops
+     </h3>
+     <p>
+      Kulissen und Rahmen f&uuml;r Fotos, die G&auml;ste gern teilen.
+     </p>
+    </div>
+    <span class="n">
+     13 Produkte
+    </span>
+   </header>
+   <div class="grid">
+    <article class="card" data-cat="fotozonen" data-id="27" data-search="fotowand blumen wei&szlig;, 2 &times; 2 m wei&szlig;e bl&uuml;ten auf stabilem gitter. fotozonen &amp; backdrops">
+     <div aria-hidden="true" class="tile g5">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <rect height="34" rx="5" width="46" x="9" y="14">
+       </rect>
+       <circle cx="32" cy="31" r="9">
+       </circle>
+       <path d="M24 14l3-5h10l3 5M20 56h24M32 48v8">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Fotowand Blumen Wei&szlig;, 2 &times; 2 m
+      </h4>
+      <p class="sd">
+       Wei&szlig;e Bl&uuml;ten auf stabilem Gitter.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         119,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="27" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Fotowand Blumen Wei&szlig;, 2 &times; 2 m
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="fotozonen" data-id="28" data-search="fotowand ballons pastell, 2 &times; 2 m pastell-ballons als rahmen f&uuml;r gruppenfotos. fotozonen &amp; backdrops">
+     <div aria-hidden="true" class="tile g4">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <rect height="34" rx="5" width="46" x="9" y="14">
+       </rect>
+       <circle cx="32" cy="31" r="9">
+       </circle>
+       <path d="M24 14l3-5h10l3 5M20 56h24M32 48v8">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Fotowand Ballons Pastell, 2 &times; 2 m
+      </h4>
+      <p class="sd">
+       Pastell-Ballons als Rahmen f&uuml;r Gruppenfotos.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         129,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="28" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Fotowand Ballons Pastell, 2 &times; 2 m
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="fotozonen" data-id="29" data-search="runder backdrop gold, 2 m goldener ring mit stoffbahn. fotozonen &amp; backdrops">
+     <div aria-hidden="true" class="tile g3">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <rect height="34" rx="5" width="46" x="9" y="14">
+       </rect>
+       <circle cx="32" cy="31" r="9">
+       </circle>
+       <path d="M24 14l3-5h10l3 5M20 56h24M32 48v8">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Runder Backdrop Gold, 2 m
+      </h4>
+      <p class="sd">
+       Goldener Ring mit Stoffbahn.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         89,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="29" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Runder Backdrop Gold, 2 m
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="fotozonen" data-id="30" data-search="doppelzylinder-backdrop zwei zylinder, mit stoff oder blumen dekorierbar. fotozonen &amp; backdrops">
+     <div aria-hidden="true" class="tile g2">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <rect height="34" rx="5" width="46" x="9" y="14">
+       </rect>
+       <circle cx="32" cy="31" r="9">
+       </circle>
+       <path d="M24 14l3-5h10l3 5M20 56h24M32 48v8">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Doppelzylinder-Backdrop
+      </h4>
+      <p class="sd">
+       Zwei Zylinder, mit Stoff oder Blumen dekorierbar.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         99,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="30" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Doppelzylinder-Backdrop
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="fotozonen" data-id="31" data-search="plissee-vorhang lavendel, 3 m flie&szlig;ender stoff in lavendel. fotozonen &amp; backdrops">
+     <div aria-hidden="true" class="tile g1">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <rect height="34" rx="5" width="46" x="9" y="14">
+       </rect>
+       <circle cx="32" cy="31" r="9">
+       </circle>
+       <path d="M24 14l3-5h10l3 5M20 56h24M32 48v8">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+      <span class="badge">
+       Neu
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Plissee-Vorhang Lavendel, 3 m
+      </h4>
+      <p class="sd">
+       Flie&szlig;ender Stoff in Lavendel.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         79,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="31" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Plissee-Vorhang Lavendel, 3 m
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="fotozonen" data-id="32" data-search="fotorahmen schmetterling xl gro&szlig;er rahmen f&uuml;r kinder und erwachsene. fotozonen &amp; backdrops">
+     <div aria-hidden="true" class="tile g0">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <rect height="34" rx="5" width="46" x="9" y="14">
+       </rect>
+       <circle cx="32" cy="31" r="9">
+       </circle>
+       <path d="M24 14l3-5h10l3 5M20 56h24M32 48v8">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Fotorahmen Schmetterling XL
+      </h4>
+      <p class="sd">
+       Gro&szlig;er Rahmen f&uuml;r Kinder und Erwachsene.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         69,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="32" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Fotorahmen Schmetterling XL
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="fotozonen" data-id="33" data-search="leuchtrahmen herz rahmen mit warmwei&szlig;er lichterkette. fotozonen &amp; backdrops">
+     <div aria-hidden="true" class="tile g5">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <rect height="34" rx="5" width="46" x="9" y="14">
+       </rect>
+       <circle cx="32" cy="31" r="9">
+       </circle>
+       <path d="M24 14l3-5h10l3 5M20 56h24M32 48v8">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Leuchtrahmen Herz
+      </h4>
+      <p class="sd">
+       Rahmen mit warmwei&szlig;er Lichterkette.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         59,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="33" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Leuchtrahmen Herz
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="fotozonen" data-id="34" data-search="kulisse m&auml;rchenwald bedruckte kulisse mit b&auml;umen und pilzen. fotozonen &amp; backdrops">
+     <div aria-hidden="true" class="tile g4">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <rect height="34" rx="5" width="46" x="9" y="14">
+       </rect>
+       <circle cx="32" cy="31" r="9">
+       </circle>
+       <path d="M24 14l3-5h10l3 5M20 56h24M32 48v8">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Kulisse M&auml;rchenwald
+      </h4>
+      <p class="sd">
+       Bedruckte Kulisse mit B&auml;umen und Pilzen.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         149,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="34" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Kulisse M&auml;rchenwald
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="fotozonen" data-id="35" data-search="fotozone zirkus zirkuszelt, sterne und luftballons. fotozonen &amp; backdrops">
+     <div aria-hidden="true" class="tile g3">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <rect height="34" rx="5" width="46" x="9" y="14">
+       </rect>
+       <circle cx="32" cy="31" r="9">
+       </circle>
+       <path d="M24 14l3-5h10l3 5M20 56h24M32 48v8">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Fotozone Zirkus
+      </h4>
+      <p class="sd">
+       Zirkuszelt, Sterne und Luftballons.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         159,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="35" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Fotozone Zirkus
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="fotozonen" data-id="36" data-search="fotozone dino dschungel mit dino-figuren. fotozonen &amp; backdrops">
+     <div aria-hidden="true" class="tile g2">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <rect height="34" rx="5" width="46" x="9" y="14">
+       </rect>
+       <circle cx="32" cy="31" r="9">
+       </circle>
+       <path d="M24 14l3-5h10l3 5M20 56h24M32 48v8">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Fotozone Dino
+      </h4>
+      <p class="sd">
+       Dschungel mit Dino-Figuren.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         159,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="36" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Fotozone Dino
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="fotozonen" data-id="37" data-search="papierblumen-wand, 2 m handgefaltete riesenblumen in rosa und lila. fotozonen &amp; backdrops">
+     <div aria-hidden="true" class="tile g1">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <rect height="34" rx="5" width="46" x="9" y="14">
+       </rect>
+       <circle cx="32" cy="31" r="9">
+       </circle>
+       <path d="M24 14l3-5h10l3 5M20 56h24M32 48v8">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Papierblumen-Wand, 2 m
+      </h4>
+      <p class="sd">
+       Handgefaltete Riesenblumen in Rosa und Lila.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         109,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="37" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Papierblumen-Wand, 2 m
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="fotozonen" data-id="38" data-search="fotoschilder-set, 20 teile sprechblasen, brillen und schnurrb&auml;rte. fotozonen &amp; backdrops">
+     <div aria-hidden="true" class="tile g0">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <rect height="34" rx="5" width="46" x="9" y="14">
+       </rect>
+       <circle cx="32" cy="31" r="9">
+       </circle>
+       <path d="M24 14l3-5h10l3 5M20 56h24M32 48v8">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Fotoschilder-Set, 20 Teile
+      </h4>
+      <p class="sd">
+       Sprechblasen, Brillen und Schnurrb&auml;rte.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         24,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="38" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Fotoschilder-Set, 20 Teile
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="fotozonen" data-id="39" data-search="h&auml;ngende wolken-deko, 5 teile wolken aus papier und watte. fotozonen &amp; backdrops">
+     <div aria-hidden="true" class="tile g5">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <rect height="34" rx="5" width="46" x="9" y="14">
+       </rect>
+       <circle cx="32" cy="31" r="9">
+       </circle>
+       <path d="M24 14l3-5h10l3 5M20 56h24M32 48v8">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       H&auml;ngende Wolken-Deko, 5 Teile
+      </h4>
+      <p class="sd">
+       Wolken aus Papier und Watte.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         44,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="39" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; H&auml;ngende Wolken-Deko, 5 Teile
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+   </div>
+  </section>
+  <section aria-labelledby="h-tisch" class="cat" data-cat="tisch" id="c-tisch">
+   <header class="cat-h">
+    <div>
+     <h3 id="h-tisch">
+      Tischdeko
+     </h3>
+     <p>
+      Gedeckter Tisch vom L&auml;ufer bis zum Kindertisch-Set.
+     </p>
+    </div>
+    <span class="n">
+     13 Produkte
+    </span>
+   </header>
+   <div class="grid">
+    <article class="card" data-cat="tisch" data-id="40" data-search="tischl&auml;ufer satin lavendel gl&auml;nzender satin, 28 &times; 275 cm. tischdeko">
+     <div aria-hidden="true" class="tile g5">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <ellipse cx="32" cy="42" rx="23" ry="8">
+       </ellipse>
+       <path d="M32 12v22">
+       </path>
+       <path d="M32 6c-4 4-4 7 0 8 4-1 4-4 0-8z">
+       </path>
+       <path d="M12 46l-3 10M52 46l3 10">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+      <span class="badge">
+       Beliebt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Tischl&auml;ufer Satin Lavendel
+      </h4>
+      <p class="sd">
+       Gl&auml;nzender Satin, 28 &times; 275 cm.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         19,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="40" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Tischl&auml;ufer Satin Lavendel
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="tisch" data-id="41" data-search="tischdecke wei&szlig;, rund 180 cm pflegeleicht und knitterarm. tischdeko">
+     <div aria-hidden="true" class="tile g4">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <ellipse cx="32" cy="42" rx="23" ry="8">
+       </ellipse>
+       <path d="M32 12v22">
+       </path>
+       <path d="M32 6c-4 4-4 7 0 8 4-1 4-4 0-8z">
+       </path>
+       <path d="M12 46l-3 10M52 46l3 10">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Tischdecke Wei&szlig;, rund 180 cm
+      </h4>
+      <p class="sd">
+       Pflegeleicht und knitterarm.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         24,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="41" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Tischdecke Wei&szlig;, rund 180 cm
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="tisch" data-id="42" data-search="servietten-set pastell, 12 st&uuml;ck dreilagig, in drei pastellt&ouml;nen. tischdeko">
+     <div aria-hidden="true" class="tile g3">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <ellipse cx="32" cy="42" rx="23" ry="8">
+       </ellipse>
+       <path d="M32 12v22">
+       </path>
+       <path d="M32 6c-4 4-4 7 0 8 4-1 4-4 0-8z">
+       </path>
+       <path d="M12 46l-3 10M52 46l3 10">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Servietten-Set Pastell, 12 St&uuml;ck
+      </h4>
+      <p class="sd">
+       Dreilagig, in drei Pastellt&ouml;nen.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         9,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="42" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Servietten-Set Pastell, 12 St&uuml;ck
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="tisch" data-id="43" data-search="teller-set papier, 16 st&uuml;ck stabile pappteller, 23 cm. tischdeko">
+     <div aria-hidden="true" class="tile g2">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <ellipse cx="32" cy="42" rx="23" ry="8">
+       </ellipse>
+       <path d="M32 12v22">
+       </path>
+       <path d="M32 6c-4 4-4 7 0 8 4-1 4-4 0-8z">
+       </path>
+       <path d="M12 46l-3 10M52 46l3 10">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Teller-Set Papier, 16 St&uuml;ck
+      </h4>
+      <p class="sd">
+       Stabile Pappteller, 23 cm.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         14,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="43" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Teller-Set Papier, 16 St&uuml;ck
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="tisch" data-id="44" data-search="becher-set, 16 st&uuml;ck papierbecher mit sternchen. tischdeko">
+     <div aria-hidden="true" class="tile g1">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <ellipse cx="32" cy="42" rx="23" ry="8">
+       </ellipse>
+       <path d="M32 12v22">
+       </path>
+       <path d="M32 6c-4 4-4 7 0 8 4-1 4-4 0-8z">
+       </path>
+       <path d="M12 46l-3 10M52 46l3 10">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Becher-Set, 16 St&uuml;ck
+      </h4>
+      <p class="sd">
+       Papierbecher mit Sternchen.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         12,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="44" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Becher-Set, 16 St&uuml;ck
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="tisch" data-id="45" data-search="papier-strohhalme, 50 st&uuml;ck gestreift in blau, lila und rosa. tischdeko">
+     <div aria-hidden="true" class="tile g0">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <ellipse cx="32" cy="42" rx="23" ry="8">
+       </ellipse>
+       <path d="M32 12v22">
+       </path>
+       <path d="M32 6c-4 4-4 7 0 8 4-1 4-4 0-8z">
+       </path>
+       <path d="M12 46l-3 10M52 46l3 10">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Papier-Strohhalme, 50 St&uuml;ck
+      </h4>
+      <p class="sd">
+       Gestreift in Blau, Lila und Rosa.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         7,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="45" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Papier-Strohhalme, 50 St&uuml;ck
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="tisch" data-id="46" data-search="schwimmkerzen-set ros&eacute; zw&ouml;lf kerzen f&uuml;r schalen und vasen. tischdeko">
+     <div aria-hidden="true" class="tile g5">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <ellipse cx="32" cy="42" rx="23" ry="8">
+       </ellipse>
+       <path d="M32 12v22">
+       </path>
+       <path d="M32 6c-4 4-4 7 0 8 4-1 4-4 0-8z">
+       </path>
+       <path d="M12 46l-3 10M52 46l3 10">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Schwimmkerzen-Set Ros&eacute;
+      </h4>
+      <p class="sd">
+       Zw&ouml;lf Kerzen f&uuml;r Schalen und Vasen.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         18,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="46" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Schwimmkerzen-Set Ros&eacute;
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="tisch" data-id="47" data-search="tisch-mittelst&uuml;ck blumen fertig gebundenes gesteck aus kunstblumen. tischdeko">
+     <div aria-hidden="true" class="tile g4">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <ellipse cx="32" cy="42" rx="23" ry="8">
+       </ellipse>
+       <path d="M32 12v22">
+       </path>
+       <path d="M32 6c-4 4-4 7 0 8 4-1 4-4 0-8z">
+       </path>
+       <path d="M12 46l-3 10M52 46l3 10">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Tisch-Mittelst&uuml;ck Blumen
+      </h4>
+      <p class="sd">
+       Fertig gebundenes Gesteck aus Kunstblumen.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         34,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="47" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Tisch-Mittelst&uuml;ck Blumen
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="tisch" data-id="48" data-search="tischkarten schmetterling, 20 st&uuml;ck zum beschriften, mit stehfu&szlig;. tischdeko">
+     <div aria-hidden="true" class="tile g3">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <ellipse cx="32" cy="42" rx="23" ry="8">
+       </ellipse>
+       <path d="M32 12v22">
+       </path>
+       <path d="M32 6c-4 4-4 7 0 8 4-1 4-4 0-8z">
+       </path>
+       <path d="M12 46l-3 10M52 46l3 10">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Tischkarten Schmetterling, 20 St&uuml;ck
+      </h4>
+      <p class="sd">
+       Zum Beschriften, mit Stehfu&szlig;.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         11,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="48" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Tischkarten Schmetterling, 20 St&uuml;ck
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="tisch" data-id="49" data-search="konfetti-mix f&uuml;r den tisch metallic-konfetti, 30 g. tischdeko">
+     <div aria-hidden="true" class="tile g2">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <ellipse cx="32" cy="42" rx="23" ry="8">
+       </ellipse>
+       <path d="M32 12v22">
+       </path>
+       <path d="M32 6c-4 4-4 7 0 8 4-1 4-4 0-8z">
+       </path>
+       <path d="M12 46l-3 10M52 46l3 10">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Konfetti-Mix f&uuml;r den Tisch
+      </h4>
+      <p class="sd">
+       Metallic-Konfetti, 30 g.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         6,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="49" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Konfetti-Mix f&uuml;r den Tisch
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="tisch" data-id="50" data-search="ballon-gewichte, 12 st&uuml;ck dekorative gewichte f&uuml;r tischballons. tischdeko">
+     <div aria-hidden="true" class="tile g1">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <ellipse cx="32" cy="42" rx="23" ry="8">
+       </ellipse>
+       <path d="M32 12v22">
+       </path>
+       <path d="M32 6c-4 4-4 7 0 8 4-1 4-4 0-8z">
+       </path>
+       <path d="M12 46l-3 10M52 46l3 10">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Ballon-Gewichte, 12 St&uuml;ck
+      </h4>
+      <p class="sd">
+       Dekorative Gewichte f&uuml;r Tischballons.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         12,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="50" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Ballon-Gewichte, 12 St&uuml;ck
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="tisch" data-id="51" data-search="windlichter aus glas, 3 st&uuml;ck f&uuml;r teelichter, in drei gr&ouml;&szlig;en. tischdeko">
+     <div aria-hidden="true" class="tile g0">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <ellipse cx="32" cy="42" rx="23" ry="8">
+       </ellipse>
+       <path d="M32 12v22">
+       </path>
+       <path d="M32 6c-4 4-4 7 0 8 4-1 4-4 0-8z">
+       </path>
+       <path d="M12 46l-3 10M52 46l3 10">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Windlichter aus Glas, 3 St&uuml;ck
+      </h4>
+      <p class="sd">
+       F&uuml;r Teelichter, in drei Gr&ouml;&szlig;en.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         21,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="51" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Windlichter aus Glas, 3 St&uuml;ck
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="tisch" data-id="52" data-search="kindertisch-set komplett, 8 kinder teller, becher, servietten und tischdecke. tischdeko">
+     <div aria-hidden="true" class="tile g5">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <ellipse cx="32" cy="42" rx="23" ry="8">
+       </ellipse>
+       <path d="M32 12v22">
+       </path>
+       <path d="M32 6c-4 4-4 7 0 8 4-1 4-4 0-8z">
+       </path>
+       <path d="M12 46l-3 10M52 46l3 10">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+      <span class="badge">
+       Neu
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Kindertisch-Set Komplett, 8 Kinder
+      </h4>
+      <p class="sd">
+       Teller, Becher, Servietten und Tischdecke.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         59,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="52" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Kindertisch-Set Komplett, 8 Kinder
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+   </div>
+  </section>
+  <section aria-labelledby="h-candybar" class="cat" data-cat="candybar" id="c-candybar">
+   <header class="cat-h">
+    <div>
+     <h3 id="h-candybar">
+      Candybar &amp; S&uuml;&szlig;es
+     </h3>
+     <p>
+      St&auml;nder, Gl&auml;ser und Topper f&uuml;r Torte, Cupcakes und S&uuml;&szlig;igkeiten.
+     </p>
+    </div>
+    <span class="n">
+     12 Produkte
+    </span>
+   </header>
+   <div class="grid">
+    <article class="card" data-cat="candybar" data-id="53" data-search="candybar-set komplett, 8 teile st&auml;nder, gl&auml;ser, schilder und zangen. candybar &amp; s&uuml;&szlig;es">
+     <div aria-hidden="true" class="tile g5">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <path d="M18 36h28l-4 18H22z">
+       </path>
+       <path d="M16 36c-2-14 8-18 16-18s18 4 16 18">
+       </path>
+       <circle cx="32" cy="12" r="3">
+       </circle>
+       <path d="M24 40v10M32 40v10M40 40v10">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Candybar-Set Komplett, 8 Teile
+      </h4>
+      <p class="sd">
+       St&auml;nder, Gl&auml;ser, Schilder und Zangen.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         89,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="53" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Candybar-Set Komplett, 8 Teile
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="candybar" data-id="54" data-search="etagere 3-st&ouml;ckig wei&szlig; f&uuml;r geb&auml;ck, obst und s&uuml;&szlig;es. candybar &amp; s&uuml;&szlig;es">
+     <div aria-hidden="true" class="tile g4">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <path d="M18 36h28l-4 18H22z">
+       </path>
+       <path d="M16 36c-2-14 8-18 16-18s18 4 16 18">
+       </path>
+       <circle cx="32" cy="12" r="3">
+       </circle>
+       <path d="M24 40v10M32 40v10M40 40v10">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Etagere 3-st&ouml;ckig Wei&szlig;
+      </h4>
+      <p class="sd">
+       F&uuml;r Geb&auml;ck, Obst und S&uuml;&szlig;es.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         29,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="54" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Etagere 3-st&ouml;ckig Wei&szlig;
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="candybar" data-id="55" data-search="cupcake-st&auml;nder gold fasst bis zu 24 cupcakes. candybar &amp; s&uuml;&szlig;es">
+     <div aria-hidden="true" class="tile g3">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <path d="M18 36h28l-4 18H22z">
+       </path>
+       <path d="M16 36c-2-14 8-18 16-18s18 4 16 18">
+       </path>
+       <circle cx="32" cy="12" r="3">
+       </circle>
+       <path d="M24 40v10M32 40v10M40 40v10">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Cupcake-St&auml;nder Gold
+      </h4>
+      <p class="sd">
+       Fasst bis zu 24 Cupcakes.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         24,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="55" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Cupcake-St&auml;nder Gold
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="candybar" data-id="56" data-search="cupcake-f&ouml;rmchen &amp; topper, 24 st&uuml;ck f&ouml;rmchen mit passenden steckern. candybar &amp; s&uuml;&szlig;es">
+     <div aria-hidden="true" class="tile g2">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <path d="M18 36h28l-4 18H22z">
+       </path>
+       <path d="M16 36c-2-14 8-18 16-18s18 4 16 18">
+       </path>
+       <circle cx="32" cy="12" r="3">
+       </circle>
+       <path d="M24 40v10M32 40v10M40 40v10">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Cupcake-F&ouml;rmchen &amp; Topper, 24 St&uuml;ck
+      </h4>
+      <p class="sd">
+       F&ouml;rmchen mit passenden Steckern.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         9,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="56" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Cupcake-F&ouml;rmchen &amp; Topper, 24 St&uuml;ck
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="candybar" data-id="57" data-search="tortenst&auml;nder glas mit haube hochwertiges glas, 30 cm. candybar &amp; s&uuml;&szlig;es">
+     <div aria-hidden="true" class="tile g1">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <path d="M18 36h28l-4 18H22z">
+       </path>
+       <path d="M16 36c-2-14 8-18 16-18s18 4 16 18">
+       </path>
+       <circle cx="32" cy="12" r="3">
+       </circle>
+       <path d="M24 40v10M32 40v10M40 40v10">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Tortenst&auml;nder Glas mit Haube
+      </h4>
+      <p class="sd">
+       Hochwertiges Glas, 30 cm.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         39,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="57" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Tortenst&auml;nder Glas mit Haube
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="candybar" data-id="58" data-search="cake-topper mit namen personalisiert, acryl oder holz. candybar &amp; s&uuml;&szlig;es">
+     <div aria-hidden="true" class="tile g0">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <path d="M18 36h28l-4 18H22z">
+       </path>
+       <path d="M16 36c-2-14 8-18 16-18s18 4 16 18">
+       </path>
+       <circle cx="32" cy="12" r="3">
+       </circle>
+       <path d="M24 40v10M32 40v10M40 40v10">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Cake-Topper mit Namen
+      </h4>
+      <p class="sd">
+       Personalisiert, Acryl oder Holz.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         19,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="58" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Cake-Topper mit Namen
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="candybar" data-id="59" data-search="glas-beh&auml;lter-set, 6 st&uuml;ck mit deckel und l&ouml;ffel. candybar &amp; s&uuml;&szlig;es">
+     <div aria-hidden="true" class="tile g5">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <path d="M18 36h28l-4 18H22z">
+       </path>
+       <path d="M16 36c-2-14 8-18 16-18s18 4 16 18">
+       </path>
+       <circle cx="32" cy="12" r="3">
+       </circle>
+       <path d="M24 40v10M32 40v10M40 40v10">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Glas-Beh&auml;lter-Set, 6 St&uuml;ck
+      </h4>
+      <p class="sd">
+       Mit Deckel und L&ouml;ffel.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         34,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="59" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Glas-Beh&auml;lter-Set, 6 St&uuml;ck
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="candybar" data-id="60" data-search="popcorn-boxen, 12 st&uuml;ck gestreifte pappboxen. candybar &amp; s&uuml;&szlig;es">
+     <div aria-hidden="true" class="tile g4">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <path d="M18 36h28l-4 18H22z">
+       </path>
+       <path d="M16 36c-2-14 8-18 16-18s18 4 16 18">
+       </path>
+       <circle cx="32" cy="12" r="3">
+       </circle>
+       <path d="M24 40v10M32 40v10M40 40v10">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Popcorn-Boxen, 12 St&uuml;ck
+      </h4>
+      <p class="sd">
+       Gestreifte Pappboxen.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         11,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="60" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Popcorn-Boxen, 12 St&uuml;ck
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="candybar" data-id="61" data-search="s&uuml;&szlig;igkeitent&uuml;ten, 20 st&uuml;ck mit zierband und aufkleber. candybar &amp; s&uuml;&szlig;es">
+     <div aria-hidden="true" class="tile g3">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <path d="M18 36h28l-4 18H22z">
+       </path>
+       <path d="M16 36c-2-14 8-18 16-18s18 4 16 18">
+       </path>
+       <circle cx="32" cy="12" r="3">
+       </circle>
+       <path d="M24 40v10M32 40v10M40 40v10">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+      <span class="badge">
+       Beliebt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       S&uuml;&szlig;igkeitent&uuml;ten, 20 St&uuml;ck
+      </h4>
+      <p class="sd">
+       Mit Zierband und Aufkleber.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         8,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="61" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; S&uuml;&szlig;igkeitent&uuml;ten, 20 St&uuml;ck
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="candybar" data-id="62" data-search="lollipop-st&auml;nder holz f&uuml;r bis zu 30 lutscher. candybar &amp; s&uuml;&szlig;es">
+     <div aria-hidden="true" class="tile g2">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <path d="M18 36h28l-4 18H22z">
+       </path>
+       <path d="M16 36c-2-14 8-18 16-18s18 4 16 18">
+       </path>
+       <circle cx="32" cy="12" r="3">
+       </circle>
+       <path d="M24 40v10M32 40v10M40 40v10">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Lollipop-St&auml;nder Holz
+      </h4>
+      <p class="sd">
+       F&uuml;r bis zu 30 Lutscher.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         17,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="62" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Lollipop-St&auml;nder Holz
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="candybar" data-id="63" data-search="cake-pop-st&auml;nder acryl, f&uuml;r 24 cake pops. candybar &amp; s&uuml;&szlig;es">
+     <div aria-hidden="true" class="tile g1">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <path d="M18 36h28l-4 18H22z">
+       </path>
+       <path d="M16 36c-2-14 8-18 16-18s18 4 16 18">
+       </path>
+       <circle cx="32" cy="12" r="3">
+       </circle>
+       <path d="M24 40v10M32 40v10M40 40v10">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Cake-Pop-St&auml;nder
+      </h4>
+      <p class="sd">
+       Acryl, f&uuml;r 24 Cake Pops.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         15,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="63" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Cake-Pop-St&auml;nder
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="candybar" data-id="64" data-search="candybar-schilder, 12 st&uuml;ck zum beschriften, mit klammern. candybar &amp; s&uuml;&szlig;es">
+     <div aria-hidden="true" class="tile g0">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <path d="M18 36h28l-4 18H22z">
+       </path>
+       <path d="M16 36c-2-14 8-18 16-18s18 4 16 18">
+       </path>
+       <circle cx="32" cy="12" r="3">
+       </circle>
+       <path d="M24 40v10M32 40v10M40 40v10">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Candybar-Schilder, 12 St&uuml;ck
+      </h4>
+      <p class="sd">
+       Zum Beschriften, mit Klammern.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         12,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="64" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Candybar-Schilder, 12 St&uuml;ck
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+   </div>
+  </section>
+  <section aria-labelledby="h-banner" class="cat" data-cat="banner" id="c-banner">
+   <header class="cat-h">
+    <div>
+     <h3 id="h-banner">
+      Schriftz&uuml;ge &amp; Banner
+     </h3>
+     <p>
+      Banner, Zahlen und Buchstaben mit Namen, Alter und Gl&uuml;ckwunsch.
+     </p>
+    </div>
+    <span class="n">
+     12 Produkte
+    </span>
+   </header>
+   <div class="grid">
+    <article class="card" data-cat="banner" data-id="65" data-search="banner &bdquo;happy birthday&ldquo; pastell aufh&auml;ngefertig, 2 m lang. schriftz&uuml;ge &amp; banner">
+     <div aria-hidden="true" class="tile g0">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <path d="M6 14q26 18 52 0">
+       </path>
+       <path d="M14 20l5 16 5-12M30 25l4 18 5-14M44 24l4 14 3-9">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Banner &bdquo;Happy Birthday&ldquo; Pastell
+      </h4>
+      <p class="sd">
+       Aufh&auml;ngefertig, 2 m lang.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         14,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="65" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Banner &bdquo;Happy Birthday&ldquo; Pastell
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="banner" data-id="66" data-search="namensbanner personalisiert mit wunschname, bis zu 10 buchstaben. schriftz&uuml;ge &amp; banner">
+     <div aria-hidden="true" class="tile g5">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <path d="M6 14q26 18 52 0">
+       </path>
+       <path d="M14 20l5 16 5-12M30 25l4 18 5-14M44 24l4 14 3-9">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Namensbanner personalisiert
+      </h4>
+      <p class="sd">
+       Mit Wunschname, bis zu 10 Buchstaben.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         29,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="66" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Namensbanner personalisiert
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="banner" data-id="67" data-search="zahlenballon folie 0&ndash;9, 86 cm w&auml;hlen sie ihre zahl im fenster. schriftz&uuml;ge &amp; banner">
+     <div aria-hidden="true" class="tile g4">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <path d="M6 14q26 18 52 0">
+       </path>
+       <path d="M14 20l5 16 5-12M30 25l4 18 5-14M44 24l4 14 3-9">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Zahlenballon Folie 0&ndash;9, 86 cm
+      </h4>
+      <p class="sd">
+       W&auml;hlen Sie Ihre Zahl im Fenster.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         8,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="67" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Zahlenballon Folie 0&ndash;9, 86 cm
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="banner" data-id="68" data-search="buchstabenballon a&ndash;z, 86 cm w&auml;hlen sie ihren buchstaben im fenster. schriftz&uuml;ge &amp; banner">
+     <div aria-hidden="true" class="tile g3">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <path d="M6 14q26 18 52 0">
+       </path>
+       <path d="M14 20l5 16 5-12M30 25l4 18 5-14M44 24l4 14 3-9">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Buchstabenballon A&ndash;Z, 86 cm
+      </h4>
+      <p class="sd">
+       W&auml;hlen Sie Ihren Buchstaben im Fenster.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         8,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="68" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Buchstabenballon A&ndash;Z, 86 cm
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="banner" data-id="69" data-search="wimpelkette regenbogen, 5 m stoffwimpel in pastellfarben. schriftz&uuml;ge &amp; banner">
+     <div aria-hidden="true" class="tile g2">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <path d="M6 14q26 18 52 0">
+       </path>
+       <path d="M14 20l5 16 5-12M30 25l4 18 5-14M44 24l4 14 3-9">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Wimpelkette Regenbogen, 5 m
+      </h4>
+      <p class="sd">
+       Stoffwimpel in Pastellfarben.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         11,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="69" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Wimpelkette Regenbogen, 5 m
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="banner" data-id="70" data-search="fransen-girlande lila folienfransen, 3 m. schriftz&uuml;ge &amp; banner">
+     <div aria-hidden="true" class="tile g1">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <path d="M6 14q26 18 52 0">
+       </path>
+       <path d="M14 20l5 16 5-12M30 25l4 18 5-14M44 24l4 14 3-9">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+      <span class="badge">
+       Neu
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Fransen-Girlande Lila
+      </h4>
+      <p class="sd">
+       Folienfransen, 3 m.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         9,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="70" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Fransen-Girlande Lila
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="banner" data-id="71" data-search="leuchtbuchstaben led, 40 cm stehend oder h&auml;ngend. schriftz&uuml;ge &amp; banner">
+     <div aria-hidden="true" class="tile g0">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <path d="M6 14q26 18 52 0">
+       </path>
+       <path d="M14 20l5 16 5-12M30 25l4 18 5-14M44 24l4 14 3-9">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Leuchtbuchstaben LED, 40 cm
+      </h4>
+      <p class="sd">
+       Stehend oder h&auml;ngend.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         49,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="71" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Leuchtbuchstaben LED, 40 cm
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="banner" data-id="72" data-search="schriftzug &bdquo;willkommen&ldquo; holz f&uuml;r eingang und tisch. schriftz&uuml;ge &amp; banner">
+     <div aria-hidden="true" class="tile g5">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <path d="M6 14q26 18 52 0">
+       </path>
+       <path d="M14 20l5 16 5-12M30 25l4 18 5-14M44 24l4 14 3-9">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Schriftzug &bdquo;Willkommen&ldquo; Holz
+      </h4>
+      <p class="sd">
+       F&uuml;r Eingang und Tisch.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         29,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="72" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Schriftzug &bdquo;Willkommen&ldquo; Holz
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="banner" data-id="73" data-search="banner &bdquo;baby shower&ldquo; f&uuml;r die feier vor der geburt. schriftz&uuml;ge &amp; banner">
+     <div aria-hidden="true" class="tile g4">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <path d="M6 14q26 18 52 0">
+       </path>
+       <path d="M14 20l5 16 5-12M30 25l4 18 5-14M44 24l4 14 3-9">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Banner &bdquo;Baby Shower&ldquo;
+      </h4>
+      <p class="sd">
+       F&uuml;r die Feier vor der Geburt.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         14,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="73" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Banner &bdquo;Baby Shower&ldquo;
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="banner" data-id="74" data-search="banner &bdquo;alles gute&ldquo; gold goldene folienbuchstaben. schriftz&uuml;ge &amp; banner">
+     <div aria-hidden="true" class="tile g3">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <path d="M6 14q26 18 52 0">
+       </path>
+       <path d="M14 20l5 16 5-12M30 25l4 18 5-14M44 24l4 14 3-9">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Banner &bdquo;Alles Gute&ldquo; Gold
+      </h4>
+      <p class="sd">
+       Goldene Folienbuchstaben.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         14,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="74" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Banner &bdquo;Alles Gute&ldquo; Gold
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="banner" data-id="75" data-search="papier-pompons, 6 st&uuml;ck zum aufh&auml;ngen, 25 bis 40 cm. schriftz&uuml;ge &amp; banner">
+     <div aria-hidden="true" class="tile g2">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <path d="M6 14q26 18 52 0">
+       </path>
+       <path d="M14 20l5 16 5-12M30 25l4 18 5-14M44 24l4 14 3-9">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Papier-Pompons, 6 St&uuml;ck
+      </h4>
+      <p class="sd">
+       Zum Aufh&auml;ngen, 25 bis 40 cm.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         24,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="75" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Papier-Pompons, 6 St&uuml;ck
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="banner" data-id="76" data-search="geburtstagszahl standaufsteller zahl aus pappe, 90 cm hoch. schriftz&uuml;ge &amp; banner">
+     <div aria-hidden="true" class="tile g1">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <path d="M6 14q26 18 52 0">
+       </path>
+       <path d="M14 20l5 16 5-12M30 25l4 18 5-14M44 24l4 14 3-9">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Geburtstagszahl Standaufsteller
+      </h4>
+      <p class="sd">
+       Zahl aus Pappe, 90 cm hoch.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         59,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="76" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Geburtstagszahl Standaufsteller
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+   </div>
+  </section>
+  <section aria-labelledby="h-gender" class="cat" data-cat="gender" id="c-gender">
+   <header class="cat-h">
+    <div>
+     <h3 id="h-gender">
+      Gender-Party
+     </h3>
+     <p>
+      Alles f&uuml;r den gro&szlig;en Moment: Reveal-Boxen, Konfetti und Abstimmkarten.
+     </p>
+    </div>
+    <span class="n">
+     12 Produkte
+    </span>
+   </header>
+   <div class="grid">
+    <article class="card" data-cat="gender" data-id="77" data-search="gender-reveal-box mit ballons box &ouml;ffnen, ballons steigen auf. gender-party">
+     <div aria-hidden="true" class="tile g1">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <circle cx="32" cy="32" r="23">
+       </circle>
+       <path d="M24 26a8 8 0 1 1 11 7c-3 2-3 4-3 7">
+       </path>
+       <circle cx="32" cy="48" fill="#fff" r="1.6">
+       </circle>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+      <span class="badge">
+       Beliebt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Gender-Reveal-Box mit Ballons
+      </h4>
+      <p class="sd">
+       Box &ouml;ffnen, Ballons steigen auf.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         39,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="77" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Gender-Reveal-Box mit Ballons
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="gender" data-id="78" data-search="konfetti-popper blau, 4 st&uuml;ck handpopper mit blauem konfetti. gender-party">
+     <div aria-hidden="true" class="tile g0">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <circle cx="32" cy="32" r="23">
+       </circle>
+       <path d="M24 26a8 8 0 1 1 11 7c-3 2-3 4-3 7">
+       </path>
+       <circle cx="32" cy="48" fill="#fff" r="1.6">
+       </circle>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Konfetti-Popper Blau, 4 St&uuml;ck
+      </h4>
+      <p class="sd">
+       Handpopper mit blauem Konfetti.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         17,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="78" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Konfetti-Popper Blau, 4 St&uuml;ck
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="gender" data-id="79" data-search="konfetti-popper rosa, 4 st&uuml;ck handpopper mit rosa konfetti. gender-party">
+     <div aria-hidden="true" class="tile g5">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <circle cx="32" cy="32" r="23">
+       </circle>
+       <path d="M24 26a8 8 0 1 1 11 7c-3 2-3 4-3 7">
+       </path>
+       <circle cx="32" cy="48" fill="#fff" r="1.6">
+       </circle>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Konfetti-Popper Rosa, 4 St&uuml;ck
+      </h4>
+      <p class="sd">
+       Handpopper mit rosa Konfetti.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         17,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="79" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Konfetti-Popper Rosa, 4 St&uuml;ck
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="gender" data-id="80" data-search="pi&ntilde;ata fragezeichen gef&uuml;llt mit s&uuml;&szlig;em oder konfetti. gender-party">
+     <div aria-hidden="true" class="tile g4">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <circle cx="32" cy="32" r="23">
+       </circle>
+       <path d="M24 26a8 8 0 1 1 11 7c-3 2-3 4-3 7">
+       </path>
+       <circle cx="32" cy="48" fill="#fff" r="1.6">
+       </circle>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Pi&ntilde;ata Fragezeichen
+      </h4>
+      <p class="sd">
+       Gef&uuml;llt mit S&uuml;&szlig;em oder Konfetti.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         29,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="80" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Pi&ntilde;ata Fragezeichen
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="gender" data-id="81" data-search="abstimmkarten team boy / team girl, 50 st&uuml;ck f&uuml;r das tippspiel der g&auml;ste. gender-party">
+     <div aria-hidden="true" class="tile g3">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <circle cx="32" cy="32" r="23">
+       </circle>
+       <path d="M24 26a8 8 0 1 1 11 7c-3 2-3 4-3 7">
+       </path>
+       <circle cx="32" cy="48" fill="#fff" r="1.6">
+       </circle>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Abstimmkarten Team Boy / Team Girl, 50 St&uuml;ck
+      </h4>
+      <p class="sd">
+       F&uuml;r das Tippspiel der G&auml;ste.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         9,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="81" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Abstimmkarten Team Boy / Team Girl, 50 St&uuml;ck
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="gender" data-id="82" data-search="riesen-ballon fragezeichen, 90 cm mit konfetti im inneren. gender-party">
+     <div aria-hidden="true" class="tile g2">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <circle cx="32" cy="32" r="23">
+       </circle>
+       <path d="M24 26a8 8 0 1 1 11 7c-3 2-3 4-3 7">
+       </path>
+       <circle cx="32" cy="48" fill="#fff" r="1.6">
+       </circle>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Riesen-Ballon Fragezeichen, 90 cm
+      </h4>
+      <p class="sd">
+       Mit Konfetti im Inneren.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         19,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="82" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Riesen-Ballon Fragezeichen, 90 cm
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="gender" data-id="83" data-search="banner &bdquo;boy or girl?&ldquo; hellblau und rosa, 2 m. gender-party">
+     <div aria-hidden="true" class="tile g1">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <circle cx="32" cy="32" r="23">
+       </circle>
+       <path d="M24 26a8 8 0 1 1 11 7c-3 2-3 4-3 7">
+       </path>
+       <circle cx="32" cy="48" fill="#fff" r="1.6">
+       </circle>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Banner &bdquo;Boy or Girl?&ldquo;
+      </h4>
+      <p class="sd">
+       Hellblau und Rosa, 2 m.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         14,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="83" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Banner &bdquo;Boy or Girl?&ldquo;
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="gender" data-id="84" data-search="gender-tischdeko-set teller, servietten, becher und streuer. gender-party">
+     <div aria-hidden="true" class="tile g0">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <circle cx="32" cy="32" r="23">
+       </circle>
+       <path d="M24 26a8 8 0 1 1 11 7c-3 2-3 4-3 7">
+       </path>
+       <circle cx="32" cy="48" fill="#fff" r="1.6">
+       </circle>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Gender-Tischdeko-Set
+      </h4>
+      <p class="sd">
+       Teller, Servietten, Becher und Streuer.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         34,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="84" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Gender-Tischdeko-Set
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="gender" data-id="85" data-search="girlande rosa &amp; blau, 3 m zwei farben, ein spannungsbogen. gender-party">
+     <div aria-hidden="true" class="tile g5">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <circle cx="32" cy="32" r="23">
+       </circle>
+       <path d="M24 26a8 8 0 1 1 11 7c-3 2-3 4-3 7">
+       </path>
+       <circle cx="32" cy="48" fill="#fff" r="1.6">
+       </circle>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Girlande Rosa &amp; Blau, 3 m
+      </h4>
+      <p class="sd">
+       Zwei Farben, ein Spannungsbogen.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         49,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="85" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Girlande Rosa &amp; Blau, 3 m
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="gender" data-id="86" data-search="cake-topper &bdquo;he or she&ldquo; f&uuml;r die torte zum anschnitt. gender-party">
+     <div aria-hidden="true" class="tile g4">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <circle cx="32" cy="32" r="23">
+       </circle>
+       <path d="M24 26a8 8 0 1 1 11 7c-3 2-3 4-3 7">
+       </path>
+       <circle cx="32" cy="48" fill="#fff" r="1.6">
+       </circle>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+      <span class="badge">
+       Neu
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Cake-Topper &bdquo;He or She&ldquo;
+      </h4>
+      <p class="sd">
+       F&uuml;r die Torte zum Anschnitt.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         12,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="86" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Cake-Topper &bdquo;He or She&ldquo;
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="gender" data-id="87" data-search="geschenkt&uuml;ten-set, 10 st&uuml;ck f&uuml;r kleine mitbringsel. gender-party">
+     <div aria-hidden="true" class="tile g3">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <circle cx="32" cy="32" r="23">
+       </circle>
+       <path d="M24 26a8 8 0 1 1 11 7c-3 2-3 4-3 7">
+       </path>
+       <circle cx="32" cy="48" fill="#fff" r="1.6">
+       </circle>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Geschenkt&uuml;ten-Set, 10 St&uuml;ck
+      </h4>
+      <p class="sd">
+       F&uuml;r kleine Mitbringsel.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         12,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="87" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Geschenkt&uuml;ten-Set, 10 St&uuml;ck
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="gender" data-id="88" data-search="fotowand gender-party, 2 &times; 2 m ballons und fragezeichen. gender-party">
+     <div aria-hidden="true" class="tile g2">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <circle cx="32" cy="32" r="23">
+       </circle>
+       <path d="M24 26a8 8 0 1 1 11 7c-3 2-3 4-3 7">
+       </path>
+       <circle cx="32" cy="48" fill="#fff" r="1.6">
+       </circle>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Fotowand Gender-Party, 2 &times; 2 m
+      </h4>
+      <p class="sd">
+       Ballons und Fragezeichen.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         129,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="88" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Fotowand Gender-Party, 2 &times; 2 m
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+   </div>
+  </section>
+  <section aria-labelledby="h-feier" class="cat" data-cat="feier" id="c-feier">
+   <header class="cat-h">
+    <div>
+     <h3 id="h-feier">
+      Hochzeit &amp; Jubil&auml;um
+     </h3>
+     <p>
+      Deko f&uuml;r Trauung, Sektempfang und runde Geburtstage.
+     </p>
+    </div>
+    <span class="n">
+     12 Produkte
+    </span>
+   </header>
+   <div class="grid">
+    <article class="card" data-cat="feier" data-id="89" data-search="hochzeitsbogen blumen rundbogen mit kunstblumen, 2,2 m. hochzeit &amp; jubil&auml;um">
+     <div aria-hidden="true" class="tile g2">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <path d="M32 54C8 38 12 14 27 18c3 1 5 3 5 6 0-3 2-5 5-6 15-4 19 20-5 36z">
+       </path>
+       <path d="M22 28l-4-1M42 28l4-1">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Hochzeitsbogen Blumen
+      </h4>
+      <p class="sd">
+       Rundbogen mit Kunstblumen, 2,2 m.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         189,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="89" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Hochzeitsbogen Blumen
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="feier" data-id="90" data-search="herz-ballon-set, 12 st&uuml;ck folienherzen in ros&eacute; und wei&szlig;. hochzeit &amp; jubil&auml;um">
+     <div aria-hidden="true" class="tile g1">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <path d="M32 54C8 38 12 14 27 18c3 1 5 3 5 6 0-3 2-5 5-6 15-4 19 20-5 36z">
+       </path>
+       <path d="M22 28l-4-1M42 28l4-1">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Herz-Ballon-Set, 12 St&uuml;ck
+      </h4>
+      <p class="sd">
+       Folienherzen in Ros&eacute; und Wei&szlig;.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         29,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="90" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Herz-Ballon-Set, 12 St&uuml;ck
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="feier" data-id="91" data-search="jubil&auml;umszahl gold, 2 zahlen zwei folienzahlen, 86 cm. hochzeit &amp; jubil&auml;um">
+     <div aria-hidden="true" class="tile g0">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <path d="M32 54C8 38 12 14 27 18c3 1 5 3 5 6 0-3 2-5 5-6 15-4 19 20-5 36z">
+       </path>
+       <path d="M22 28l-4-1M42 28l4-1">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Jubil&auml;umszahl Gold, 2 Zahlen
+      </h4>
+      <p class="sd">
+       Zwei Folienzahlen, 86 cm.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         24,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="91" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Jubil&auml;umszahl Gold, 2 Zahlen
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="feier" data-id="92" data-search="sektempfang-deko-set schilder, gl&auml;ser-anh&auml;nger und tischl&auml;ufer. hochzeit &amp; jubil&auml;um">
+     <div aria-hidden="true" class="tile g5">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <path d="M32 54C8 38 12 14 27 18c3 1 5 3 5 6 0-3 2-5 5-6 15-4 19 20-5 36z">
+       </path>
+       <path d="M22 28l-4-1M42 28l4-1">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Sektempfang-Deko-Set
+      </h4>
+      <p class="sd">
+       Schilder, Gl&auml;ser-Anh&auml;nger und Tischl&auml;ufer.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         49,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="92" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Sektempfang-Deko-Set
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="feier" data-id="93" data-search="tischnummern-set 1&ndash;10 stehaufsteller in gold. hochzeit &amp; jubil&auml;um">
+     <div aria-hidden="true" class="tile g4">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <path d="M32 54C8 38 12 14 27 18c3 1 5 3 5 6 0-3 2-5 5-6 15-4 19 20-5 36z">
+       </path>
+       <path d="M22 28l-4-1M42 28l4-1">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+      <span class="badge">
+       Beliebt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Tischnummern-Set 1&ndash;10
+      </h4>
+      <p class="sd">
+       Stehaufsteller in Gold.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         24,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="93" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Tischnummern-Set 1&ndash;10
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="feier" data-id="94" data-search="g&auml;stebuch-tisch-set schild, stifthalter und herzdeko. hochzeit &amp; jubil&auml;um">
+     <div aria-hidden="true" class="tile g3">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <path d="M32 54C8 38 12 14 27 18c3 1 5 3 5 6 0-3 2-5 5-6 15-4 19 20-5 36z">
+       </path>
+       <path d="M22 28l-4-1M42 28l4-1">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       G&auml;stebuch-Tisch-Set
+      </h4>
+      <p class="sd">
+       Schild, Stifthalter und Herzdeko.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         59,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="94" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; G&auml;stebuch-Tisch-Set
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="feier" data-id="95" data-search="sweetheart-table backdrop r&uuml;ckwand f&uuml;r den tisch des brautpaars. hochzeit &amp; jubil&auml;um">
+     <div aria-hidden="true" class="tile g2">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <path d="M32 54C8 38 12 14 27 18c3 1 5 3 5 6 0-3 2-5 5-6 15-4 19 20-5 36z">
+       </path>
+       <path d="M22 28l-4-1M42 28l4-1">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Sweetheart-Table Backdrop
+      </h4>
+      <p class="sd">
+       R&uuml;ckwand f&uuml;r den Tisch des Brautpaars.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         149,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="95" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Sweetheart-Table Backdrop
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="feier" data-id="96" data-search="banner &bdquo;just married&ldquo; goldene buchstaben, 2 m. hochzeit &amp; jubil&auml;um">
+     <div aria-hidden="true" class="tile g1">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <path d="M32 54C8 38 12 14 27 18c3 1 5 3 5 6 0-3 2-5 5-6 15-4 19 20-5 36z">
+       </path>
+       <path d="M22 28l-4-1M42 28l4-1">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Banner &bdquo;Just Married&ldquo;
+      </h4>
+      <p class="sd">
+       Goldene Buchstaben, 2 m.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         16,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="96" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Banner &bdquo;Just Married&ldquo;
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="feier" data-id="97" data-search="lichterkette warmwei&szlig;, 10 m f&uuml;r zelt, baum und bogen. hochzeit &amp; jubil&auml;um">
+     <div aria-hidden="true" class="tile g0">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <path d="M32 54C8 38 12 14 27 18c3 1 5 3 5 6 0-3 2-5 5-6 15-4 19 20-5 36z">
+       </path>
+       <path d="M22 28l-4-1M42 28l4-1">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Lichterkette warmwei&szlig;, 10 m
+      </h4>
+      <p class="sd">
+       F&uuml;r Zelt, Baum und Bogen.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         19,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="97" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Lichterkette warmwei&szlig;, 10 m
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="feier" data-id="98" data-search="streubl&uuml;ten-set seidenbl&uuml;ten in drei farben. hochzeit &amp; jubil&auml;um">
+     <div aria-hidden="true" class="tile g5">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <path d="M32 54C8 38 12 14 27 18c3 1 5 3 5 6 0-3 2-5 5-6 15-4 19 20-5 36z">
+       </path>
+       <path d="M22 28l-4-1M42 28l4-1">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Streubl&uuml;ten-Set
+      </h4>
+      <p class="sd">
+       Seidenbl&uuml;ten in drei Farben.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         8,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="98" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Streubl&uuml;ten-Set
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="feier" data-id="99" data-search="kerzen-set hochzeit, 6 st&uuml;ck stabkerzen in elfenbein. hochzeit &amp; jubil&auml;um">
+     <div aria-hidden="true" class="tile g4">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <path d="M32 54C8 38 12 14 27 18c3 1 5 3 5 6 0-3 2-5 5-6 15-4 19 20-5 36z">
+       </path>
+       <path d="M22 28l-4-1M42 28l4-1">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Kerzen-Set Hochzeit, 6 St&uuml;ck
+      </h4>
+      <p class="sd">
+       Stabkerzen in Elfenbein.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         27,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="99" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Kerzen-Set Hochzeit, 6 St&uuml;ck
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="card" data-cat="feier" data-id="100" data-search="ballon-herzbogen, 2 m herzf&ouml;rmiger bogen f&uuml;r fotos. hochzeit &amp; jubil&auml;um">
+     <div aria-hidden="true" class="tile g3">
+      <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+       <path d="M32 54C8 38 12 14 27 18c3 1 5 3 5 6 0-3 2-5 5-6 15-4 19 20-5 36z">
+       </path>
+       <path d="M22 28l-4-1M42 28l4-1">
+       </path>
+      </svg>
+      <span class="ph">
+       Foto folgt
+      </span>
+     </div>
+     <div class="cb">
+      <h4>
+       Ballon-Herzbogen, 2 m
+      </h4>
+      <p class="sd">
+       Herzf&ouml;rmiger Bogen f&uuml;r Fotos.
+      </p>
+      <div class="row">
+       <div class="pr">
+        <span class="price">
+         99,90&nbsp;&euro;
+        </span>
+        <small class="vat">
+         inkl. MwSt., zzgl. Versand
+        </small>
+       </div>
+       <button class="btn pri sm order" data-id="100" type="button">
+        Termin buchen
+        <span class="sr">
+         &ndash; Ballon-Herzbogen, 2 m
+        </span>
+       </button>
+      </div>
+     </div>
+    </article>
+   </div>
+  </section>
+  <p class="empty" hidden="" id="empty">
+   Keine Treffer. Versuchen Sie einen anderen Suchbegriff oder w&auml;hlen Sie &bdquo;Alle&ldquo;.
+  </p>
+ </main>
+ <section class="steps">
+  <div class="wrap">
+   <h2>
+    So buchen Sie
+   </h2>
+   <ol class="st">
+    <li>
+     <span class="no">
+      1
+     </span>
+     <div>
+      <h3>
+       Produkte w&auml;hlen
+      </h3>
+      <p>
+       St&ouml;bern Sie nach Kategorien und w&auml;hlen Sie Ihre Favoriten.
+      </p>
+     </div>
+    </li>
+    <li>
+     <span class="no">
+      2
+     </span>
+     <div>
+      <h3>
+       Wunschtermin w&auml;hlen
+      </h3>
+      <p>
+       Pro Produkt legen Sie Farbe und Datum im Kalender fest. Besondere W&uuml;nsche kl&auml;ren wir per Nachricht.
+      </p>
+     </div>
+    </li>
+    <li>
+     <span class="no">
+      3
+     </span>
+     <div>
+      <h3>
+       Buchen und feiern
+      </h3>
+      <p>
+       Sie pr&uuml;fen alles, buchen verbindlich und erhalten Ihre Deko zum Termin.
+      </p>
+     </div>
+    </li>
+   </ol>
+  </div>
+ </section>
+ <section class="contact wrap" id="kontakt">
+  <div class="ct">
+   <h2>
+    Frage zur Deko oder zum Termin?
+   </h2>
+   <p>
+    Schreiben Sie mir eine Nachricht, ich antworte pers&ouml;nlich.
+   </p>
+  </div>
+  <div class="ct2">
+   <p class="big">
+    +49 171 2164165
+   </p>
+   <p class="mut">
+    WhatsApp und Telegram, Mariia
+   </p>
+  </div>
+ </section>
+ <section class="instagram-section">
+  <div class="wrap instagram-content">
+
+    <div class="instagram-text">
+      <span class="eyebrow">Folgen Sie uns</span>
+
+      <h2>Entdecken Sie <span>Luft Event</span></h2>
+
+      <p>
+        Inspiration, Dekoration und unvergessliche
+        Momente. Besuchen Sie uns auf Instagram!
+      </p>
+
+      <a
+        class="btn pri instagram-btn"
+        href="https://www.instagram.com/luft_event?exln=MTNsZzJ0NGg3MzE4bw=="
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Instagram öffnen
+      </a>
+    </div>
+
+    <a
+      class="instagram-qr"
+      href="https://www.instagram.com/luft_event?exln=MTNsZzJ0NGg3MzE4bw=="
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img
+        src="instagram-qr.jpg"
+        alt="Instagram QR-Code @LUFT_EVENT"
+      >
+    </a>
+
+  </div>
+</section>
+ <footer class="foot">
+  <div class="wrap">
+   <div class="foot-grid">
+    <div class="fcol brand">
+     <span class="logo">
+      <span class="lg">
+       Luft
+      </span>
+      <svg aria-hidden="true" class="bf" focusable="false" height="38" viewbox="0 0 64 56" width="44">
+       <defs>
+        <lineargradient id="bfg" x1="0" x2="1" y1="0" y2="1">
+         <stop offset="0" stop-color="#8FD0F7">
+         </stop>
+         <stop offset=".55" stop-color="#B49CEB">
+         </stop>
+         <stop offset="1" stop-color="#D47FD9">
+         </stop>
+        </lineargradient>
+       </defs>
+       <g fill="none" stroke="url(#bfg)" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.2">
+        <path d="M13 30C6 14 22 2 38 5C53 8 55 24 36 30">
+        </path>
+        <path d="M13 30C22 27 30 27 37 30">
+        </path>
+        <path d="M13 30C10 44 24 55 37 50C49 46 45 35 31 34">
+        </path>
+       </g>
+      </svg>
+      <span class="lg">
+       vent
+      </span>
+     </span>
+     <p class="slogan">
+      Ihr Fest &ndash; stilvoll gestaltet
+     </p>
+     <p>
+      Beratung per WhatsApp und Telegram:
+      <br/>
+      <strong class="tel">
+       +49 171 2164165
+      </strong>
+      (Mariia)
+     </p>
+    </div>
+    <nav aria-label="Kategorien" class="fcol">
+     <h2>
+      Sortiment
+     </h2>
+     <ul>
+      <li>
+       <a data-go="girlanden" href="#c-girlanden">
+        Ballongirlanden
+       </a>
+      </li>
+      <li>
+       <a data-go="boegen" href="#c-boegen">
+        Ballonb&ouml;gen &amp; S&auml;ulen
+       </a>
+      </li>
+      <li>
+       <a data-go="fotozonen" href="#c-fotozonen">
+        Fotozonen &amp; Backdrops
+       </a>
+      </li>
+      <li>
+       <a data-go="tisch" href="#c-tisch">
+        Tischdeko
+       </a>
+      </li>
+      <li>
+       <a data-go="candybar" href="#c-candybar">
+        Candybar &amp; S&uuml;&szlig;es
+       </a>
+      </li>
+      <li>
+       <a data-go="banner" href="#c-banner">
+        Schriftz&uuml;ge &amp; Banner
+       </a>
+      </li>
+      <li>
+       <a data-go="gender" href="#c-gender">
+        Gender-Party
+       </a>
+      </li>
+      <li>
+       <a data-go="feier" href="#c-feier">
+        Hochzeit &amp; Jubil&auml;um
+       </a>
+      </li>
+     </ul>
+    </nav>
+    <nav aria-label="Service" class="fcol">
+     <h2>
+      Service
+     </h2>
+     <ul>
+      <li>
+       <button class="lnk" data-legal="versand" type="button">
+        Versand &amp; Zahlung
+       </button>
+      </li>
+      <li>
+       <button class="lnk" data-legal="widerruf" type="button">
+        Widerrufsbelehrung
+       </button>
+      </li>
+      <li>
+       <button class="lnk" data-legal="widerruf" type="button">
+        Vertrag widerrufen
+       </button>
+      </li>
+      <li>
+       <button class="lnk" data-legal="barriere" type="button">
+        Barrierefreiheit
+       </button>
+      </li>
+     </ul>
+    </nav>
+    <nav aria-label="Rechtliches" class="fcol">
+     <h2>
+      Rechtliches
+     </h2>
+     <ul>
+      <li>
+       <button class="lnk" data-legal="impressum" type="button">
+        Impressum
+       </button>
+      </li>
+      <li>
+       <button class="lnk" data-legal="datenschutz" type="button">
+        Datenschutz
+       </button>
+      </li>
+      <li>
+       <button class="lnk" data-legal="agb" type="button">
+        AGB
+       </button>
+      </li>
+      <li>
+       <button class="lnk" data-cookie="open" type="button">
+        Cookie-Einstellungen
+       </button>
+      </li>
+     </ul>
+    </nav>
+   </div>
+   <p class="fine">
+    Alle Preise in Euro inklusive gesetzlicher Mehrwertsteuer, zzgl. Versandkosten. Produktfotos, Preise und Texte sind Platzhalter f&uuml;r dieses Design.
+   </p>
+   <p class="fine">
+    &copy; 2026 Luft Event
+   </p>
+  </div>
+ </footer>
+</div>
+<button aria-label="Nach oben" class="totop" id="totop" type="button">
+ <svg aria-hidden="true" fill="none" height="26" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 24 24" width="26">
+  <path d="M12 19V5M5 12l7-7 7 7">
+  </path>
+ </svg>
+</button>
+<dialog aria-labelledby="pmTitle" class="pm" id="pm">
+ <div class="pm-card">
+  <button aria-label="Fenster schlie&szlig;en" class="x" data-close="" type="button">
+   <svg aria-hidden="true" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-width="2.4" viewbox="0 0 24 24" width="20">
+    <path d="M5 5l14 14M19 5L5 19">
+    </path>
+   </svg>
+  </button>
+  <div class="pm-img">
+   <div aria-hidden="true" class="tile g5 big" data-f="tile">
+    <svg aria-hidden="true" class="ic" fill="none" focusable="false" height="64" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewbox="0 0 64 64" width="64">
+     <ellipse cx="22" cy="24" rx="10" ry="12">
+     </ellipse>
+     <ellipse cx="40" cy="20" rx="9" ry="11">
+     </ellipse>
+     <ellipse cx="33" cy="38" rx="8" ry="10">
+     </ellipse>
+     <path d="M22 36c0 8 6 10 11 12M40 31c0 6-3 9-7 7M33 48v10">
+     </path>
+    </svg>
+    <span class="ph">
+     Foto folgt
+    </span>
+   </div>
+  </div>
+  <div class="pm-info">
+   <p class="eyebrow" data-f="cat">
+    Ballongirlanden
+   </p>
+   <h2 id="pmTitle">
+    Termin buchen
+   </h2>
+   <p class="pn" data-f="name">
+    Regenbogen-Girlande Pastell, 3 m
+   </p>
+   <p class="sku">
+    Art.-Nr.
+    <span data-f="sku">
+     LE-G-01
+    </span>
+   </p>
+   <p class="pm-desc" data-f="desc">
+    Weiche Pastellt&ouml;ne f&uuml;r Kinderfest und Kindergeburtstag.
+   </p>
+   <dl class="facts">
+    <div>
+     <dt>
+      Material
+     </dt>
+     <dd data-f="material">
+      Latex- und Folienballons, Ballonband
+     </dd>
+    </div>
+    <div>
+     <dt>
+      Lieferumfang
+     </dt>
+     <dd data-f="scope">
+      Girlande fertig gebunden, Aufh&auml;nger und Klebepunkte
+     </dd>
+    </div>
+    <div>
+     <dt>
+      Lieferung
+     </dt>
+     <dd>
+      Zum Wunschtermin, Details per Nachricht (Beispiel)
+     </dd>
+    </div>
+   </dl>
+   <fieldset class="colors">
+    <legend>
+     Farbe
+    </legend>
+    <div class="sws">
+     <label class="sw">
+      <input checked="" name="pmcol" type="radio" value="0"/>
+      <span class="dot g0">
+      </span>
+      <span>
+       Pastell
+      </span>
+     </label>
+     <label class="sw">
+      <input name="pmcol" type="radio" value="1"/>
+      <span class="dot g1">
+      </span>
+      <span>
+       Blau
+      </span>
+     </label>
+     <label class="sw">
+      <input name="pmcol" type="radio" value="3"/>
+      <span class="dot g3">
+      </span>
+      <span>
+       Rosa
+      </span>
+     </label>
+     <label class="sw">
+      <input name="pmcol" type="radio" value="2"/>
+      <span class="dot g2">
+      </span>
+      <span>
+       Lavendel
+      </span>
+     </label>
+    </div>
+   </fieldset>
+   <p class="note" data-f="note">
+    Helium ist nicht enthalten. Girlanden sind f&uuml;r den Innenraum gedacht.
+   </p>
+  </div>
+  <div class="pm-cal">
+   <h3 class="cal-t">
+    Wunschtermin w&auml;hlen
+   </h3>
+   <div class="cal-h">
+    <button aria-label="Vorheriger Monat" class="cal-nav" id="calPrev" type="button">
+     &lsaquo;
+    </button>
+    <strong id="calTitle">
+     November 2026
+    </strong>
+    <button aria-label="N&auml;chster Monat" class="cal-nav" id="calNext" type="button">
+     &rsaquo;
+    </button>
+   </div>
+   <div aria-hidden="true" class="cal-w">
+    <span>
+     Mo
+    </span>
+    <span>
+     Di
+    </span>
+    <span>
+     Mi
+    </span>
+    <span>
+     Do
+    </span>
+    <span>
+     Fr
+    </span>
+    <span>
+     Sa
+    </span>
+    <span>
+     So
+    </span>
+   </div>
+   <div class="cal-g" id="calGrid">
+   </div>
+   <p aria-live="polite" class="cal-s" id="calSel">
+    Bitte w&auml;hlen Sie einen Wunschtermin.
+   </p>
+   <p class="cal-l">
+    <span class="k sel">
+    </span>
+    Ausgew&auml;hlt
+    <span class="k busy">
+    </span>
+    Belegt (Beispiel)
+    <span class="k dis">
+    </span>
+    Nicht buchbar
+   </p>
+  </div>
+  <div class="pm-buy">
+   <div class="buy">
+    <div aria-label="Menge" class="qty" role="group">
+     <button aria-label="Menge verringern" data-q="-1" type="button">
+      &minus;
+     </button>
+     <output data-f="qty" id="pmQty">
+      1
+     </output>
+     <button aria-label="Menge erh&ouml;hen" data-q="1" type="button">
+      +
+     </button>
+    </div>
+    <div class="pr big">
+     <span class="price" data-f="price">
+      49,90&nbsp;&euro;
+     </span>
+     <small class="vat">
+      inkl. MwSt., zzgl. Versand
+     </small>
+    </div>
+   </div>
+   <button class="btn pri wide" disabled="" id="pmAdd" type="button">
+    In den Warenkorb
+   </button>
+   <p class="hint" id="pmHint">
+    Bitte zuerst einen Wunschtermin im Kalender w&auml;hlen.
+   </p>
+  </div>
+ </div>
+</dialog>
+<dialog aria-labelledby="cartTitle" class="cartd" id="cart">
+ <div class="cart-in">
+  <div class="cart-h">
+   <h2 id="cartTitle">
+    Warenkorb
+   </h2>
+   <button aria-label="Warenkorb schlie&szlig;en" class="x" data-close="" type="button">
+    <svg aria-hidden="true" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-width="2.4" viewbox="0 0 24 24" width="20">
+     <path d="M5 5l14 14M19 5L5 19">
+     </path>
+    </svg>
+   </button>
+  </div>
+  <div id="cartBody" style="flex:1">
+  </div>
+  <div class="cart-f" hidden="" id="cartFoot">
+   <div class="sum">
+    <span>
+     Zwischensumme
+    </span>
+    <strong id="ctotal">
+     0,00&nbsp;&euro;
+    </strong>
+   </div>
+   <p class="mut">
+    inkl. MwSt. Versandkosten werden vor der Bestellung angezeigt.
+   </p>
+   <label class="check">
+    <input id="agree" type="checkbox"/>
+    <span>
+     Ich habe die
+     <button class="lnk" data-legal="agb" type="button">
+      AGB
+     </button>
+     , die
+     <button class="lnk" data-legal="widerruf" type="button">
+      Widerrufsbelehrung
+     </button>
+     und die
+     <button class="lnk" data-legal="datenschutz" type="button">
+      Datenschutzerkl&auml;rung
+     </button>
+     gelesen.
+    </span>
+   </label>
+   <button class="btn pri wide" disabled="" id="orderBtn" type="button">
+    Zahlungspflichtig bestellen
+   </button>
+  </div>
+ </div>
+</dialog>
+<dialog aria-labelledby="legalTitle" class="leg" id="legal">
+ <div class="leg-in">
+  <div class="leg-h">
+   <h2 id="legalTitle">
+   </h2>
+   <button aria-label="Fenster schlie&szlig;en" class="x" data-close="" type="button">
+    <svg aria-hidden="true" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-width="2.4" viewbox="0 0 24 24" width="20">
+     <path d="M5 5l14 14M19 5L5 19">
+     </path>
+    </svg>
+   </button>
+  </div>
+  <div class="leg-b" id="legalBody">
+  </div>
+ </div>
+</dialog>
+<section aria-labelledby="ckT" aria-modal="false" class="ck" hidden="" id="cookie" role="dialog">
+ <div class="wrap ck-in">
+  <div class="ck-t">
+   <h2 id="ckT">
+    Ihre Privatsph&auml;re
+   </h2>
+   <p>
+    Wir nutzen notwendige Techniken, damit der Shop funktioniert. Mit Ihrer Einwilligung messen wir au&szlig;erdem die Nutzung und binden externe Inhalte ein. Sie k&ouml;nnen Ihre Auswahl jederzeit im Footer &auml;ndern. Mehr dazu in der
+    <button class="lnk" data-legal="datenschutz" type="button">
+     Datenschutzerkl&auml;rung
+    </button>
+    .
+   </p>
+  </div>
+  <div class="ck-b">
+   <button class="btn eq" data-ck="all" type="button">
+    Alle akzeptieren
+   </button>
+   <button class="btn eq" data-ck="nec" type="button">
+    Nur notwendige
+   </button>
+   <button aria-controls="ckSet" aria-expanded="false" class="btn eq" data-ck="set" type="button">
+    Einstellungen
+   </button>
+  </div>
+  <div class="ck-s" hidden="" id="ckSet">
+   <label class="sw2">
+    <input checked="" disabled="" type="checkbox"/>
+    <span>
+     <strong>
+      Notwendig
+     </strong>
+     Warenkorb und Sicherheit. Immer aktiv.
+    </span>
+   </label>
+   <label class="sw2">
+    <input id="ckStat" type="checkbox"/>
+    <span>
+     <strong>
+      Statistik
+     </strong>
+     Anonyme Auswertung der Seitennutzung.
+    </span>
+   </label>
+   <label class="sw2">
+    <input id="ckExt" type="checkbox"/>
+    <span>
+     <strong>
+      Externe Inhalte
+     </strong>
+     Karten und Videos von Drittanbietern.
+    </span>
+   </label>
+   <button class="btn eq" data-ck="save" type="button">
+    Auswahl speichern
+   </button>
+  </div>
+ </div>
+</section>
+<div aria-live="polite" class="toast" id="toast" role="status">
+</div>
+<template data-title="Impressum" id="t-impressum">
+ <p class="tpl">
+  Vorlage f&uuml;r das Design. Die Angaben in eckigen Klammern erg&auml;nzen Sie, und der Text sollte vor dem Start rechtlich gepr&uuml;ft werden.
+ </p>
+ <h3>
+  Angaben gem&auml;&szlig; &sect; 5 DDG
+ </h3>
+ <p>
+  Luft Event
+  <br/>
+  [Vor- und Nachname bzw. Firma, Rechtsform]
+  <br/>
+  [Stra&szlig;e und Hausnummer]
+  <br/>
+  [PLZ Ort]
+ </p>
+ <h3>
+  Kontakt
+ </h3>
+ <p>
+  Telefon, WhatsApp und Telegram: +49 171 2164165
+  <br/>
+  E-Mail: [E-Mail-Adresse]
+ </p>
+ <h3>
+  Umsatzsteuer
+ </h3>
+ <p>
+  Umsatzsteuer-Identifikationsnummer gem&auml;&szlig; &sect; 27a UStG: [USt-IdNr.] oder Hinweis auf Kleinunternehmerregelung nach &sect; 19 UStG.
+ </p>
+ <h3>
+  Verantwortlich f&uuml;r den Inhalt
+ </h3>
+ <p>
+  [Name und Anschrift]
+ </p>
+ <h3>
+  Verbraucherstreitbeilegung
+ </h3>
+ <p>
+  [Wir sind nicht bereit und nicht verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen. / Wir nehmen teil an: Name und Anschrift der Stelle.]
+ </p>
+</template>
+<template data-title="Datenschutzerkl&auml;rung" id="t-datenschutz">
+ <p class="tpl">
+  Vorlage f&uuml;r das Design. Die Angaben in eckigen Klammern erg&auml;nzen Sie, und der Text sollte vor dem Start rechtlich gepr&uuml;ft werden.
+ </p>
+ <h3>
+  1. Verantwortlicher
+ </h3>
+ <p>
+  Verantwortlich im Sinne der DSGVO ist [Name, Anschrift, E-Mail]. Eine Datenschutzbeauftragte ist nicht bestellt. [ggf. anpassen]
+ </p>
+ <h3>
+  2. Hosting und Server-Logfiles
+ </h3>
+ <p>
+  Beim Aufruf werden technisch notwendige Daten (IP-Adresse, Zeitpunkt, Browser) verarbeitet. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO. Hoster: [Anbieter, Serverstandort EU].
+ </p>
+ <h3>
+  3. Bestellung
+ </h3>
+ <p>
+  F&uuml;r die Abwicklung verarbeiten wir Name, Anschrift, E-Mail, Telefon und Bestelldaten. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO. Gesetzliche Aufbewahrungsfristen (&sect; 147 AO, &sect; 257 HGB) betragen bis zu zehn Jahre.
+ </p>
+ <h3>
+  4. Zahlungs- und Versanddienstleister
+ </h3>
+ <p>
+  [Anbieter benennen, z. B. Zahlungsdienst und Paketdienst, mit Zweck und Rechtsgrundlage.]
+ </p>
+ <h3>
+  5. Cookies und &auml;hnliche Technologien
+ </h3>
+ <p>
+  Notwendige Speicherung (Warenkorb, Einwilligung) erfolgt nach &sect; 25 Abs. 2 TDDDG. Statistik und externe Inhalte nutzen wir nur mit Ihrer Einwilligung nach &sect; 25 Abs. 1 TDDDG und Art. 6 Abs. 1 lit. a DSGVO. Sie k&ouml;nnen sie jederzeit &uuml;ber &bdquo;Cookie-Einstellungen&ldquo; im Footer widerrufen.
+ </p>
+ <h3>
+  6. Kontaktaufnahme per WhatsApp und Telegram
+ </h3>
+ <p>
+  Wenn Sie uns &uuml;ber Messenger schreiben, gelten zus&auml;tzlich die Datenschutzbestimmungen des jeweiligen Anbieters. [Hinweis zu Drittland&uuml;bermittlung erg&auml;nzen.]
+ </p>
+ <h3>
+  7. Ihre Rechte
+ </h3>
+ <p>
+  Sie haben das Recht auf Auskunft (Art. 15), Berichtigung (Art. 16), L&ouml;schung (Art. 17), Einschr&auml;nkung (Art. 18), Daten&uuml;bertragbarkeit (Art. 20) und Widerspruch (Art. 21 DSGVO). Einwilligungen k&ouml;nnen Sie jederzeit mit Wirkung f&uuml;r die Zukunft widerrufen.
+ </p>
+ <h3>
+  8. Beschwerderecht
+ </h3>
+ <p>
+  Sie k&ouml;nnen sich bei einer Datenschutz-Aufsichtsbeh&ouml;rde beschweren, z. B. der f&uuml;r [Bundesland] zust&auml;ndigen Beh&ouml;rde.
+ </p>
+</template>
+<template data-title="Allgemeine Gesch&auml;ftsbedingungen" id="t-agb">
+ <p class="tpl">
+  Vorlage f&uuml;r das Design. Die Angaben in eckigen Klammern erg&auml;nzen Sie, und der Text sollte vor dem Start rechtlich gepr&uuml;ft werden.
+ </p>
+ <h3>
+  1. Geltungsbereich
+ </h3>
+ <p>
+  Diese AGB gelten f&uuml;r alle Bestellungen im Online-Shop von Luft Event zwischen uns und Verbrauchern.
+ </p>
+ <h3>
+  2. Vertragsschluss
+ </h3>
+ <p>
+  Die Darstellung der Produkte ist ein verbindliches Angebot. Mit &bdquo;Zahlungspflichtig bestellen&ldquo; geben Sie eine verbindliche Buchung bzw. Bestellung ab. Wir best&auml;tigen den Eingang per E-Mail.
+ </p>
+ <h3>
+  2a. Termine
+ </h3>
+ <p>
+  Der gew&auml;hlte Wunschtermin ist Bestandteil der Buchung. [Stornierung, Umbuchung und Anzahlung erg&auml;nzen.]
+ </p>
+ <h3>
+  3. Preise und Versand
+ </h3>
+ <p>
+  Alle Preise sind Endpreise inklusive gesetzlicher Mehrwertsteuer. Versandkosten werden vor Abgabe der Bestellung angezeigt. [Liefergebiete, Lieferzeit erg&auml;nzen.]
+ </p>
+ <h3>
+  4. Zahlung
+ </h3>
+ <p>
+  [Zahlungsarten erg&auml;nzen.]
+ </p>
+ <h3>
+  5. Eigentumsvorbehalt und Gew&auml;hrleistung
+ </h3>
+ <p>
+  Die Ware bleibt bis zur vollst&auml;ndigen Zahlung unser Eigentum. Es gelten die gesetzlichen M&auml;ngelrechte.
+ </p>
+ <h3>
+  6. Vertragstext
+ </h3>
+ <p>
+  [Hinweis zur Speicherung des Vertragstextes erg&auml;nzen.]
+ </p>
+</template>
+<template data-title="Widerrufsbelehrung" id="t-widerruf">
+ <p class="tpl">
+  Vorlage f&uuml;r das Design. Die Angaben in eckigen Klammern erg&auml;nzen Sie, und der Text sollte vor dem Start rechtlich gepr&uuml;ft werden.
+ </p>
+ <h3>
+  Widerrufsrecht
+ </h3>
+ <p>
+  Sie haben das Recht, binnen 14 Tagen ohne Angabe von Gr&uuml;nden diesen Vertrag zu widerrufen. Die Frist betr&auml;gt 14 Tage ab dem Tag, an dem Sie oder ein von Ihnen benannter Dritter die Waren in Besitz genommen haben.
+ </p>
+ <h3>
+  Widerruf erkl&auml;ren
+ </h3>
+ <p>
+  Nutzen Sie die Funktion &bdquo;Vertrag widerrufen&ldquo; im Footer, schreiben Sie an [E-Mail, Anschrift] oder nutzen Sie das Muster-Widerrufsformular. [Funktion zum Widerruf technisch umsetzen und pr&uuml;fen lassen.]
+ </p>
+ <h3>
+  Ausnahmen
+ </h3>
+ <p>
+  Das Widerrufsrecht besteht nicht bei Waren, die nach Kundenspezifikation angefertigt werden, etwa Banner und Topper mit Wunschname, und bei Waren, die schnell verderben k&ouml;nnen.
+ </p>
+ <h3>
+  Terminleistungen
+ </h3>
+ <p>
+  [Bei Leistungen zur Freizeitgestaltung mit festem Termin besteht nach &sect; 312g Abs. 2 Nr. 9 BGB kein Widerrufsrecht. Pr&uuml;fen, ob das f&uuml;r Ihr Angebot gilt, und Text anpassen.]
+ </p>
+ <h3>
+  Folgen des Widerrufs
+ </h3>
+ <p>
+  Wir erstatten alle Zahlungen einschlie&szlig;lich Standardlieferkosten sp&auml;testens binnen 14 Tagen nach Eingang des Widerrufs. Die unmittelbaren Kosten der R&uuml;cksendung tragen Sie. [ggf. anpassen]
+ </p>
+</template>
+<template data-title="Versand &amp; Zahlung" id="t-versand">
+ <p class="tpl">
+  Vorlage f&uuml;r das Design. Die Angaben in eckigen Klammern erg&auml;nzen Sie, und der Text sollte vor dem Start rechtlich gepr&uuml;ft werden.
+ </p>
+ <h3>
+  Versand
+ </h3>
+ <p>
+  [Versandarten, Kosten, Lieferzeiten und Liefergebiete erg&auml;nzen.] Versandkosten sehen Sie vor Abgabe der Bestellung.
+ </p>
+ <h3>
+  Abholung und Aufbau
+ </h3>
+ <p>
+  [Falls angeboten: Abholung, Lieferung mit Aufbau und Preise erg&auml;nzen.]
+ </p>
+ <h3>
+  Zahlung
+ </h3>
+ <p>
+  [Zahlungsarten erg&auml;nzen, z. B. Vorkasse, PayPal, Karte.]
+ </p>
+</template>
+<template data-title="Barrierefreiheit" id="t-barriere">
+ <p class="tpl">
+  Vorlage f&uuml;r das Design. Die Angaben in eckigen Klammern erg&auml;nzen Sie, und der Text sollte vor dem Start rechtlich gepr&uuml;ft werden.
+ </p>
+ <p>
+  Wir m&ouml;chten, dass alle Menschen diesen Shop nutzen k&ouml;nnen. Die Seite ist per Tastatur bedienbar, Kontraste folgen den WCAG-Empfehlungen, und Bilder erhalten Alternativtexte, sobald echte Fotos eingesetzt sind.
+ </p>
+ <p>
+  Haben Sie Barrieren bemerkt? Schreiben Sie an [E-Mail-Adresse]. [Barrierefreiheitserkl&auml;rung nach BFSG pr&uuml;fen: Kleinstunternehmen sind f&uuml;r Dienstleistungen teils ausgenommen.]
+ </p>
+</template>
+
+</body>
+</html>
