@@ -3255,3 +3255,358 @@ body::before {
         margin-inline: auto;
     }
 }
+/* =========================================
+   LUFT EVENT SHOP — RESPONSIVE DESIGN
+   Адаптация для ПК, ноутбуков, планшетов
+   и мобильных телефонов
+========================================= */
+
+/* Общая защита от горизонтальной прокрутки */
+
+html,
+body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* =========================================
+   БОЛЬШИЕ ЭКРАНЫ — ПК
+========================================= */
+
+@media (min-width: 1200px) {
+
+    .wrap {
+        max-width: 1240px;
+    }
+
+    .grid,
+    .cat .grid {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 20px;
+    }
+
+    .hero h1 {
+        font-size: 3.75rem;
+    }
+
+    .nav {
+        display: flex;
+    }
+}
+
+/* =========================================
+   НОУТБУКИ
+========================================= */
+
+@media (min-width: 901px) and (max-width: 1199px) {
+
+    .wrap {
+        padding-inline: 24px;
+    }
+
+    .grid,
+    .cat .grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 16px;
+    }
+
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    .bar {
+        gap: 16px;
+    }
+
+    .nav {
+        gap: 14px;
+    }
+
+    .foot-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* =========================================
+   ПЛАНШЕТЫ
+========================================= */
+
+@media (min-width: 601px) and (max-width: 900px) {
+
+    :root {
+        --hh: 64px;
+    }
+
+    .wrap {
+        padding-inline: 22px;
+    }
+
+    .grid,
+    .cat .grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 16px;
+    }
+
+    .hero {
+        padding-block: 40px;
+    }
+
+    .hero-in {
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .cat-head {
+        align-items: flex-start;
+    }
+
+    .search {
+        width: 280px;
+    }
+
+    .foot-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .st {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .pm {
+        width: min(620px, calc(100% - 24px));
+    }
+}
+
+/* =========================================
+   ТЕЛЕФОНЫ
+========================================= */
+
+@media (max-width: 600px) {
+
+    :root {
+        --hh: 58px;
+    }
+
+    body {
+        font-size: 14px;
+    }
+
+    .wrap {
+        padding-inline: 16px;
+    }
+
+    .bar {
+        min-height: var(--hh);
+        gap: 10px;
+    }
+
+    .lg {
+        font-size: 1.8rem;
+    }
+
+    .cartbtn {
+        min-height: 42px;
+        padding-inline: 12px;
+        font-size: .85rem;
+    }
+
+    /* Главный экран */
+
+    .hero {
+        padding-block: 36px 40px;
+    }
+
+    .hero-in {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .hero h1 {
+        font-size: clamp(2rem, 8vw, 2.5rem);
+    }
+
+    .lead {
+        font-size: 1rem;
+    }
+
+    .pills {
+        max-width: 360px;
+        margin-inline: auto;
+    }
+
+    .pill {
+        font-size: 1.2rem;
+        padding: 12px 22px;
+    }
+
+    /* Каталог */
+
+    .cat-head {
+        padding-top: 36px;
+        gap: 16px;
+    }
+
+    .cat-head h2 {
+        font-size: 1.7rem;
+    }
+
+    .search {
+        width: 100%;
+    }
+
+    .grid,
+    .cat .grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+    }
+
+    .card {
+        border-radius: 18px;
+    }
+
+    .cb {
+        padding: 10px;
+    }
+
+    .cb h4 {
+        font-size: .88rem;
+    }
+
+    .sd {
+        font-size: .78rem;
+    }
+
+    .price {
+        font-size: 1.05rem;
+    }
+
+    .btn {
+        min-height: 42px;
+        padding-inline: 14px;
+        font-size: .85rem;
+    }
+
+    /* Шаги и контакты */
+
+    .st {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .contact {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-block: 36px;
+    }
+
+    /* Подвал */
+
+    .foot {
+        padding-block: 48px 24px;
+        border-top-left-radius: 30% 32px;
+        border-top-right-radius: 30% 32px;
+    }
+
+    .foot-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    /* Instagram */
+
+    .instagram-section {
+        padding: 42px 0;
+    }
+
+    .instagram-text h2 {
+        font-size: 1.8rem;
+    }
+
+    /* Корзина */
+
+    .cartd {
+        width: 100%;
+        max-width: 100%;
+        border-radius: 22px 22px 0 0;
+    }
+
+    .cart-in {
+        min-height: 88dvh;
+    }
+
+    /* Окно товара */
+
+    .pm {
+        width: calc(100% - 16px);
+        max-height: calc(100dvh - 16px);
+        border-radius: 20px;
+    }
+
+    .pm-info h2 {
+        font-size: 1.35rem;
+    }
+
+    .facts div {
+        grid-template-columns: 90px 1fr;
+    }
+
+    /* Кнопка наверх */
+
+    .totop {
+        width: 48px;
+        height: 48px;
+    }
+}
+
+/* =========================================
+   ОЧЕНЬ МАЛЕНЬКИЕ ТЕЛЕФОНЫ
+========================================= */
+
+@media (max-width: 360px) {
+
+    .grid,
+    .cat .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hero h1 {
+        font-size: 1.9rem;
+    }
+
+    .lg {
+        font-size: 1.55rem;
+    }
+
+    .cartbtn {
+        padding-inline: 9px;
+    }
+}
+
+/* =========================================
+   УСТРАНЕНИЕ НЕЖЕЛАТЕЛЬНЫХ АНИМАЦИЙ
+========================================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+        scroll-behavior: auto !important;
+        animation-duration: .01ms !important;
+        transition-duration: .01ms !important;
+    }
+}
